@@ -1,0 +1,4449 @@
+[
+ {
+  "id": "6a8c667adb786b9aff1798aa",
+  "current_name_en": "Signature Pastry & Dessert Collection Photoshoot",
+  "current_name_ar": "فوتوشوت مجموعة المعجنات والحلويات المميزة",
+  "suggested_name_en": "Estabraq — Desserts, Bakery & Grand Opening Campaign",
+  "suggested_name_ar": "استبرق — حملة الحلويات والمخبوزات وتغطية الافتتاح",
+  "name_reason": "Generic; no client name and omits the opening video and social designs that are part of the project.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "wording",
+    "current": "An all-inclusive visual identity campaign, highlighting their delicious range",
+    "suggestion": "A complete visual campaign for Estabraq, highlighting its range",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "الجـاتوه",
+    "suggestion": "الجاتوه",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "علشان نظهر ... اهتمينا",
+    "suggestion": "لإظهار ... اهتممنا",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Cakes Collection",
+    "suggestion": "Oriental Desserts Collection (the description is about oriental sweets, not cakes)",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "inconsistent",
+    "current": "مجموعة التورت",
+    "suggestion": "تشكيلة الحلويات الشرقية",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "​A rich showcase",
+    "suggestion": "A rich showcase (remove the leading zero-width character)",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "ددافئة",
+    "suggestion": "دافئة",
+    "severity": "high"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "التهشيم الذهبي",
+    "suggestion": "القرمشة الذهبية",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "grammar",
+    "current": "Gateaux and Tart",
+    "suggestion": "Gateaux & Tarts",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "جاتوه و تارت",
+    "suggestion": "جاتوه وتارت",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "A collection of and Gateaux  tart photography",
+    "suggestion": "A collection of gateaux and tart photography",
+    "severity": "high"
+   },
+   {
+    "field": "section4.caption",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Eeastern Desserts",
+    "suggestion": "Oriental Desserts",
+    "severity": "high"
+   },
+   {
+    "field": "section4.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "oriental desserts ,",
+    "suggestion": "oriental desserts,",
+    "severity": "low"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "جذاب و ملفت",
+    "suggestion": "جذاب وملفت.",
+    "severity": "low"
+   },
+   {
+    "field": "section5.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Social media Design",
+    "suggestion": "Social Media Design",
+    "severity": "low"
+   },
+   {
+    "field": "section5.description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "A rich display of authentic oriental sweets. We adjusted the design and chose the font type",
+    "suggestion": "Social media designs for Estabraq's oriental sweets, with layouts and typography chosen to reflect authenticity and traditional taste.",
+    "severity": "medium"
+   },
+   {
+    "field": "section6.caption",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "تغطيه الافتتاح",
+    "suggestion": "تغطية الافتتاح",
+    "severity": "high"
+   },
+   {
+    "field": "section6.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "تغطية فيديو الحصرية",
+    "suggestion": "تغطية فيديو حصرية",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Estabraq (texts) vs client 'Istbrq'",
+    "suggestion": "Use one spelling of the client name everywhere (e.g. Estabraq)",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud elgorg — Photographer",
+    "suggestion": "Mahmoud Elgorg — Photographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "43 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "food photography egypt, dessert photography egypt (lowercase place names)",
+    "suggestion": "Food Photography Egypt — or drop geo duplicates"
+   },
+   {
+    "current": "No tags for the opening video or social media designs",
+    "suggestion": "Add 'event video coverage', 'grand opening video', 'social media design'"
+   },
+   {
+    "current": "white blue and gold color palette",
+    "suggestion": "Remove (not supported by the project text)"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Estabraq",
+   "dessert photography",
+   "oriental sweets photography",
+   "cake & gateau photography",
+   "bakery & pastry photography",
+   "food styling",
+   "macro food photography",
+   "social media design",
+   "grand opening video",
+   "event coverage",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "استبرق",
+   "تصوير حلويات",
+   "تصوير حلويات شرقية",
+   "تصوير كيك وجاتوه",
+   "تصوير مخبوزات ومعجنات",
+   "تنسيق الطعام",
+   "تصوير ماكرو للطعام",
+   "تصميم سوشيال ميديا",
+   "فيديو افتتاح",
+   "تغطية فعاليات",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results",
+   "client name spelled differently (Istbrq vs Estabraq)"
+  ],
+  "quality_score": 2,
+  "note": "Section 1 is captioned 'Cakes' but describes oriental sweets, and Arabic texts switch between colloquial and formal registers."
+ },
+ {
+  "id": "6a98388790322753b71685d0",
+  "current_name_en": "Delight | Cake & Torte Collection Photography",
+  "current_name_ar": "حملة تصوير الكيك والتورت",
+  "suggested_name_en": "Kreaz — Five-Flavor Cake & Torte Photography",
+  "suggested_name_ar": "كريز — تصوير تشكيلة الكيك والتورت بخمس نكهات",
+  "name_reason": "Generic; 'Delight' label exists only in English and the client is not named.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "حملة تصوير الكيك والتورت",
+    "suggestion": "Arabic name drops 'Delight'; align both names",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "professional presentation",
+    "suggestion": "professional presentation.",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "بشكل شهي واحترافي",
+    "suggestion": "بشكل شهي واحترافي.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "tanta.egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا.مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "generic",
+    "current": "A collection of professional photographs showcasing a diverse range of cakes and tortes in flavors including Nutella, Raffaello...",
+    "suggestion": "Repeats the main description almost word for word; describe what is specific to this section (e.g. hero shots of whole cakes vs. slice close-ups).",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "generic",
+    "current": "Cake Collection",
+    "suggestion": "Whole Cakes & Close-Up Details",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "والـ Close-Up",
+    "suggestion": "واللقطات المقرّبة",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "claim",
+    "current": "Nutella, Raffaello",
+    "suggestion": "Nutella / Raffaello are Ferrero trademarks; write 'hazelnut-chocolate' and 'coconut-almond' unless the client is licensed to use the names",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "الراڤايلو",
+    "suggestion": "الرافاييلو (and keep one spelling across texts and tags)",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "50 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "saber group, sabergroup, sabergroupstudios",
+    "suggestion": "Saber Group"
+   },
+   {
+    "current": "Nutella cake photography / Nutella dessert photography (and same pattern for each flavor)",
+    "suggestion": "One tag per flavor at most, e.g. 'flavored cakes'"
+   },
+   {
+    "current": "macro photography, macro food photography, macro product photography",
+    "suggestion": "Close-up cake photography (macro is not mentioned in the texts)"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Kreaz'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Kreaz",
+   "cake photography",
+   "torte photography",
+   "dessert product photography",
+   "close-up food photography",
+   "cake styling",
+   "food styling",
+   "pistachio cake",
+   "mango cake",
+   "white chocolate cake",
+   "food advertising photography",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كريز",
+   "تصوير كيك",
+   "تصوير تورت",
+   "تصوير منتجات الحلويات",
+   "تصوير مقرب للطعام",
+   "تنسيق الكيك",
+   "تنسيق الطعام",
+   "كيك الفستق",
+   "كيك المانجو",
+   "كيك الوايت شوكولاتة",
+   "تصوير إعلاني للأطعمة",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results",
+   "client name not mentioned in texts",
+   "sections are near-duplicates of the main description"
+  ],
+  "quality_score": 3,
+  "note": "Two sections say nearly the same thing; consider merging them or describing different shot types."
+ },
+ {
+  "id": "6a96c9b2fa96baf46ff9f21a",
+  "current_name_en": "Treats | Christmas Dessert Collection Photography",
+  "current_name_ar": "تصوير إعلاني لمجموعة من حلويات الكريسماس",
+  "suggested_name_en": "Kreaz — Red & Gold Christmas Dessert Campaign",
+  "suggested_name_ar": "كريز — حملة حلويات الكريسماس بالأحمر والذهبي",
+  "name_reason": "Generic; no client and 'Treats' label missing in Arabic.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "cakes, torte, assorted pastries",
+    "suggestion": "cakes, tortes, assorted pastries",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "translation_mismatch",
+    "current": "assorted pastries",
+    "suggestion": "Arabic mentions 'الجاتوه السواريه' (petit fours); add 'petits fours' in English",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "festive Christmas atmosphere",
+    "suggestion": "Festive Christmas Atmosphere",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "أجواء احتفالية غنية.",
+    "suggestion": "أجواء الكريسماس الاحتفالية",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "Christmas cakes, torte,",
+    "suggestion": "Christmas cakes, tortes,",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "مجموعة من فيديوهات الماتيريال التي توثق",
+    "suggestion": "مجموعة من المقاطع المصوّرة التي توثق",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud elgorg — Photographer",
+    "suggestion": "Mahmoud Elgorg — Photographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "42 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "cake photography egypt, Christmas cake photography egypt",
+    "suggestion": "Mixed casing; keep one 'food photography Egypt'"
+   },
+   {
+    "current": "No video tag although section 3 is videos",
+    "suggestion": "Add 'dessert video', 'product video'"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Kreaz'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Kreaz",
+   "Christmas dessert photography",
+   "Christmas cake photography",
+   "seasonal campaign",
+   "festive food styling",
+   "dessert product photography",
+   "petits fours photography",
+   "dessert video",
+   "red and gold styling",
+   "food advertising photography",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كريز",
+   "تصوير حلويات الكريسماس",
+   "تصوير تورت الكريسماس",
+   "حملة موسمية",
+   "تنسيق طعام احتفالي",
+   "تصوير منتجات الحلويات",
+   "تصوير جاتوه سواريه",
+   "فيديو حلويات",
+   "ألوان أحمر وذهبي",
+   "تصوير إعلاني للأطعمة",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "no description for section 2 (EN/AR)",
+   "no client goal",
+   "no results",
+   "client name not mentioned in texts"
+  ],
+  "quality_score": 3,
+  "note": "Section 2 ('Christmas Desserts') has no description in either language."
+ },
+ {
+  "id": "6a8c572047324453c206bc92",
+  "current_name_en": "Workwear | Professional Medical Scrubs Shoot",
+  "current_name_ar": "الجيل التالي من الملابس الطبية - جلسة تصوير احترافية",
+  "suggested_name_en": "Swae Wear — Brown Medical Scrubs Lookbook Shoot",
+  "suggested_name_ar": "سواي وير — جلسة تصوير لوك بوك للملابس الطبية",
+  "name_reason": "EN/AR mismatch ('next generation of medical wear' is an unsupported claim) and no client name.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "claim",
+    "current": "الجيل التالي من الملابس الطبية",
+    "suggestion": "Unverifiable claim; describe the shoot instead",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "An expansive visual showcase featuring in our scrubs collection.",
+    "suggestion": "A visual showcase of Swae Wear's scrubs collection.",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "every shade was accurately captured ... diverse lookbook",
+    "suggestion": "Sections only show brown scrubs; either add the other colors or say 'the brown scrubs line'",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "In collaboration with Dr Nada",
+    "suggestion": "In collaboration with Dr. Nada.",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "اهتمينا ... علشان",
+    "suggestion": "اهتممنا ... حتى",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "اسكرب باللون البني",
+    "suggestion": "سكراب باللون البني (use one spelling in all fields)",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "brown scrubs Line",
+    "suggestion": "brown scrubs line",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "​كاتجوري",
+    "suggestion": "فئة (remove leading zero-width character)",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "كاتجوري دافئ وعصري يضم الإسكراب النص كم",
+    "suggestion": "فئة دافئة وعصرية تضم السكراب بأكمام قصيرة",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Brown Scrubs",
+    "suggestion": "Duplicate of section 1 caption and description; rename (e.g. 'Brown Scrubs — On Model') or merge",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "A warm, contemporary category presenting the short-sleeve light brown scrubs Line.",
+    "suggestion": "Identical to section 1; write a distinct description or merge the sections",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "​كاتجوري",
+    "suggestion": "فئة (remove leading zero-width character)",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "wording",
+    "current": "BTS Scrubs",
+    "suggestion": "Behind the Scenes",
+    "severity": "high"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "اسكرب BTS",
+    "suggestion": "كواليس التصوير",
+    "severity": "high"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "التي صُبت لإخراج جلسة تصوير الإسكراب بأفضل صورة",
+    "suggestion": "التي بُذلت لإخراج جلسة تصوير السكراب بأفضل صورة.",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "41 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "Lifestyle photoshoot, model shoot, model posing",
+    "suggestion": "Model photoshoot"
+   },
+   {
+    "current": "brown medical scrubs photography / brown scrubs photoshoot / brown scrubs product photography",
+    "suggestion": "Brown medical scrubs"
+   },
+   {
+    "current": "No BTS/video tag although section 3 is a video",
+    "suggestion": "Add 'behind-the-scenes video'"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Swae Wear'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Swae Wear",
+   "medical scrubs photography",
+   "medical uniform photography",
+   "women's scrubs",
+   "brown scrubs",
+   "model photoshoot",
+   "fashion lookbook",
+   "apparel product photography",
+   "fabric detail photography",
+   "behind-the-scenes video",
+   "fashion photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "سواي وير",
+   "تصوير سكراب طبي",
+   "تصوير يونيفورم طبي",
+   "سكراب نسائي",
+   "سكراب بني",
+   "جلسة تصوير موديل",
+   "لوك بوك أزياء",
+   "تصوير منتجات ملابس",
+   "تصوير تفاصيل الخامات",
+   "فيديو كواليس",
+   "تصوير أزياء في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results",
+   "client name not in texts",
+   "sections 1 and 2 are duplicates",
+   "only one color shown though text says every shade"
+  ],
+  "quality_score": 2,
+  "note": "Services list contains 'إلتقاط صورة' (should be 'التقاط صورة'), a site-wide service label typo."
+ },
+ {
+  "id": "6a8ff5c59dbca2cb21e9e0a3",
+  "current_name_en": "Dessert Portraits",
+  "current_name_ar": "كل طبقة لها حكاية",
+  "suggested_name_en": "Castania — One Cake, Many Angles Dessert Shoot",
+  "suggested_name_ar": "كاستانيا — تورتة واحدة بزوايا متعددة",
+  "name_reason": "Generic and EN/AR say different things ('Dessert Portraits' vs 'every layer has a story'); no client.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "كل طبقة لها حكاية",
+    "suggestion": "Align with the English name",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "الزاويا الصح",
+    "suggestion": "الزوايا الصحيحة",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـclose-ups ... الـcomposition",
+    "suggestion": "اللقطات المقرّبة ... التكوين",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "بالكامل .",
+    "suggestion": "بالكامل.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta , egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا , مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "تصوير مختلف للتورت",
+    "suggestion": "تصوير التورت",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "ناعم و مختلف  يمنح كل تورته حضورها الخاص ،",
+    "suggestion": "ناعم ومختلف يمنح كل تورتة حضورها الخاص،",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "تورته",
+    "suggestion": "تورتة",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "التصميم البسيط",
+    "suggestion": "التنسيق البسيط (simple styling)",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "و طبقاتها ,  الإضاءة ... و بيظهروا جمال كل تورته",
+    "suggestion": "وطبقاتها، والإضاءة ... وتُظهر جمال كل تورتة.",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "للكامبين",
+    "suggestion": "للحملة.",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "en",
+    "type": "wording",
+    "current": "each of which has its own composition and makes you see the cake as if it were a separate photo",
+    "suggestion": "each with its own composition, so the same cake reads like a different image every time",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Riham abulrazik — Account manager",
+    "suggestion": "Riham Abulrazik — Account Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "FoodPhotography, FoodStyling, DessertStyling ... (CamelCase hashtags)",
+    "suggestion": "Use normal spaced tags: 'food photography', 'food styling'"
+   },
+   {
+    "current": "تصوير الحلوبات",
+    "suggestion": "تصوير الحلويات"
+   },
+   {
+    "current": "محتوي الطعام",
+    "suggestion": "محتوى الطعام"
+   },
+   {
+    "current": "تصميم الطعام / تصميم الحلويات / تصميم التورت (styling translated as design)",
+    "suggestion": "تنسيق الطعام / تنسيق الحلويات / تنسيق التورت"
+   },
+   {
+    "current": "اتجاه إبداعي",
+    "suggestion": "توجيه فني"
+   },
+   {
+    "current": "SocialMediaMarketing, CreativeMarketing",
+    "suggestion": "Remove (no marketing service in this project)"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Castania'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Castania",
+   "dessert photography",
+   "cake photography",
+   "food styling",
+   "cake styling",
+   "close-up food photography",
+   "white background product photography",
+   "creative food angles",
+   "behind the scenes",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كاستانيا",
+   "تصوير حلويات",
+   "تصوير تورت",
+   "تنسيق الطعام",
+   "تنسيق التورت",
+   "تصوير مقرب للطعام",
+   "تصوير منتجات بخلفية بيضاء",
+   "زوايا تصوير إبداعية",
+   "كواليس التصوير",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results",
+   "client name not in texts"
+  ],
+  "quality_score": 3,
+  "note": "Arabic texts are colloquial with English words mixed in; decide on one register for the whole site."
+ },
+ {
+  "id": "6a8c795f30a0dc0b569a3c29",
+  "current_name_en": "Authentic Egyptian Cuisine Campaign Photoshoot",
+  "current_name_ar": "فوتوشوت حملة المطبخ المصري الأصيل",
+  "suggested_name_en": "Majed Restaurant — Ramadan Egyptian Menu Photoshoot",
+  "suggested_name_ar": "مطعم ماجد — تصوير منيو رمضان للأكلات المصرية",
+  "name_reason": "Generic; omits the client and the Ramadan menu focus.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Rmadan",
+    "suggestion": "Ramadan",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "Menu photoshoot for Rmadan, a vibrant visual campaign created for Majed Restaurant",
+    "suggestion": "A Ramadan menu photoshoot and visual campaign for Majed Restaurant",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "using warm studio lighting and capture the rich textures",
+    "suggestion": "using warm studio lighting to capture the rich textures",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "wording",
+    "current": "sizzling fats",
+    "suggestion": "sizzling, juicy finish",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "claim",
+    "current": "famous for its authentic Egyptian dishes",
+    "suggestion": "known for its authentic Egyptian dishes",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Kawaraa (trotters)",
+    "suggestion": "Kawareh (trotters)",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "منيو فوتوشوت لرمضان حملة بصرية",
+    "suggestion": "تصوير منيو رمضان: حملة بصرية",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "بديكورات ورائحة التراث المصري",
+    "suggestion": "بديكورات مستوحاة من التراث المصري",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "High-quality Signature Dishes Photography",
+    "suggestion": "Signature Dishes Photography",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "والتقديم المصري الأصيل",
+    "suggestion": "والتقديم المصري الأصيل.",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "wording",
+    "current": "BTS",
+    "suggestion": "Behind the Scenes",
+    "severity": "high"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "BTS",
+    "suggestion": "كواليس التصوير",
+    "severity": "high"
+   },
+   {
+    "field": "section2.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "behind the shoot,from lighting calibration, and detailed food styling that brought Majed’s authentic menu to life",
+    "suggestion": "behind the shoot, from lighting calibration to the detailed food styling that brought Majed’s menu to life.",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "خلف الكاميرا.من",
+    "suggestion": "خلف الكاميرا، من",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "قائمة مطعم ماجد بأفضل",
+    "suggestion": "قائمة مطعم ماجد بأفضل صورة.",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "41 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "No Ramadan tag although the project is a Ramadan menu shoot",
+    "suggestion": "Add 'Ramadan food photography' / 'تصوير منيو رمضان'"
+   },
+   {
+    "current": "chicken photography, rice photography, pastry photography, dessert photography",
+    "suggestion": "Remove unless these dishes are actually shown (texts mention kofta, trotters and sides only)"
+   },
+   {
+    "current": "Arabic food photography, Middle Eastern food photography",
+    "suggestion": "Egyptian food photography"
+   },
+   {
+    "current": "blue and gold color palette",
+    "suggestion": "Remove (not in the texts)"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Majed Restaurant",
+   "Ramadan food photography",
+   "Egyptian food photography",
+   "menu photography",
+   "restaurant photography",
+   "kofta",
+   "food styling",
+   "food advertising photography",
+   "behind-the-scenes video",
+   "food photography Egypt",
+   "Tanta"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "مطعم ماجد",
+   "تصوير منيو رمضان",
+   "تصوير أكل مصري",
+   "تصوير منيو المطاعم",
+   "تصوير مطاعم",
+   "كفتة",
+   "تنسيق الطعام",
+   "تصوير إعلاني للأطعمة",
+   "فيديو كواليس",
+   "تصوير طعام في مصر",
+   "طنطا"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 2,
+  "note": "Services list 'photoediting / برنامج تحرير الصور' translates to 'photo-editing software'; use 'تحرير الصور'."
+ },
+ {
+  "id": "6a957e218dd0716289576a98",
+  "current_name_en": "Surgery | Social Media Content for a Plastic Surgeon",
+  "current_name_ar": "محتوى سوشيال ميديا لجراح تجميل",
+  "suggested_name_en": "Prof. Dr. Ahmed Ashraf — Plastic Surgery Video & Social Content",
+  "suggested_name_ar": "أ.د. أحمد أشرف — محتوى فيديو وسوشيال ميديا لجراحة التجميل",
+  "name_reason": "Generic; the 'Surgery |' prefix reads oddly and the doctor is not named.",
+  "issues": [
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـtalking head",
+    "suggestion": "لقطات الحديث المباشر للكاميرا",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "مع استخدام حركة كاميرا هادئة وتكوينات نظيفة",
+    "suggestion": "Not in English; add 'calm camera movement and clean compositions' to EN or remove",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Desgins Social Media",
+    "suggestion": "Social Media Designs",
+    "severity": "high"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "THUMBNAILS",
+    "suggestion": "Video Thumbnails",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "wording",
+    "current": "الصور المصغرة",
+    "suggestion": "صور مصغّرة للفيديوهات",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Hadeel nagy — Social media specialist",
+    "suggestion": "Hadeel Nagy — Social Media Specialist",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Riham abulrazik — Account manager",
+    "suggestion": "Riham Abulrazik — Account Manager",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "40 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "social media design, social media designs",
+    "suggestion": "social media design"
+   },
+   {
+    "current": "breastfeeding content design, breast milk pumping content design",
+    "suggestion": "Remove unless such posts appear in the project (not mentioned in texts)"
+   },
+   {
+    "current": "All tags are design tags; no video tags although the services and section 1 are video",
+    "suggestion": "Add 'medical video production', 'talking-head video', 'doctor reels'"
+   },
+   {
+    "current": "brown and beige color palette",
+    "suggestion": "Remove (not in texts)"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "plastic surgeon content",
+   "medical video production",
+   "doctor reels",
+   "talking-head video",
+   "doctor personal branding",
+   "medical social media design",
+   "video thumbnails",
+   "cosmetic surgery awareness",
+   "medical marketing Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "محتوى جراح تجميل",
+   "إنتاج فيديو طبي",
+   "ريلز أطباء",
+   "فيديو حديث مباشر للكاميرا",
+   "البراند الشخصي للطبيب",
+   "تصميم سوشيال ميديا طبي",
+   "صور مصغرة للفيديوهات",
+   "توعية بجراحات التجميل",
+   "تسويق طبي في مصر"
+  ],
+  "missing_content": [
+   "no description for sections 2 and 3 (EN/AR)",
+   "doctor not named in texts",
+   "no client goal",
+   "no results",
+   "services list lacks graphic design although designs and thumbnails are shown"
+  ],
+  "quality_score": 2,
+  "note": "Client field is formatted 'Prof.dr.Ahmed ashraf'; use 'Prof. Dr. Ahmed Ashraf'."
+ },
+ {
+  "id": "6a9477446a41e0a52edf0124",
+  "current_name_en": "Landmark | Beit El Watan Real Estate Visual Campaign",
+  "current_name_ar": "حملة بيت الوطن لشركة عقارات",
+  "suggested_name_en": "Engaz — Beit El Watan Villa Apartments Video Campaign",
+  "suggested_name_ar": "إنجاز العقارية — حملة فيديو لشقق فلل بيت الوطن",
+  "name_reason": "Developer not named and Arabic name is vague ('for a real estate company'); 'Landmark' is an unexplained label.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "polished visual storytelling. developing residential units in Beit El Watan, New Cairo.",
+    "suggestion": "…polished visual storytelling for Engaz, which is developing residential units in Beit El Watan, New Cairo.",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "combining high-quality photography and video production",
+    "suggestion": "Services are video only (photos are BTS); say 'video production with behind-the-scenes photography'",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "مشروع محتوى  للقطاع",
+    "suggestion": "مشروع محتوى للقطاع",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "ومصقول. تطوير الوحدات السكنية في بيت الوطن بالقاهرة الجديدة.",
+    "suggestion": "ومصقول لشركة إنجاز التي تطوّر وحدات سكنية في بيت الوطن بالقاهرة الجديدة.",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "بطريقة جذابة وجذابة",
+    "suggestion": "بطريقة جذابة",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Engaz real estate .Tanta",
+    "suggestion": "Engaz Real Estate, Tanta",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "انجاز العقارية .طنطا",
+    "suggestion": "إنجاز العقارية، طنطا",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Tanta",
+    "suggestion": "The property is in Beit El Watan, New Cairo; clarify whether location means the client office or the shoot site",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "final property showcase",
+    "suggestion": "Final Property Showcase",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "عرض الريلز النهائية",
+    "suggestion": "الفيديوهات النهائية للمشروع",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "للتسويق العقاري",
+    "suggestion": "للتسويق العقاري.",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Bts photos",
+    "suggestion": "Behind-the-Scenes Photos",
+    "severity": "high"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "إنتاج المحتوى",
+    "suggestion": "إنتاج المحتوى.",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "bts",
+    "suggestion": "Behind-the-Scenes Video",
+    "severity": "high"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "wording",
+    "current": "كواليس",
+    "suggestion": "فيديو الكواليس",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "وراء النتيجة النهائية",
+    "suggestion": "وراء النتيجة النهائية.",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "hasnaa el shazly — model",
+    "suggestion": "Hasnaa El Shazly — Model",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; 29 Arabic tags (صابر جروب، بيت الوطن …) are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "51 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios, saber group",
+    "suggestion": "Saber Group"
+   },
+   {
+    "current": "real estate reels / real estate reel; real estate video / property video",
+    "suggestion": "Keep one of each"
+   },
+   {
+    "current": "No developer tag",
+    "suggestion": "Add 'Engaz Real Estate' / 'إنجاز العقارية'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Engaz Real Estate",
+   "Beit El Watan",
+   "New Cairo",
+   "real estate video",
+   "real estate reels",
+   "property videography",
+   "real estate marketing",
+   "villa apartments",
+   "behind the scenes",
+   "real estate content Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "إنجاز العقارية",
+   "بيت الوطن",
+   "القاهرة الجديدة",
+   "فيديو عقاري",
+   "ريلز عقارية",
+   "تصوير فيديو للعقارات",
+   "تسويق عقاري",
+   "شقق داخل فلل",
+   "كواليس التصوير",
+   "محتوى عقاري في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 2,
+  "note": "Both descriptions contain a broken sentence fragment where the developer's name was apparently deleted."
+ },
+ {
+  "id": "6a8c3defb7122cca661f2a58",
+  "current_name_en": "Brmbo elsham | Full menu and marketing photoshoot",
+  "current_name_ar": "برمبو الشام | تصوير المنيو بالكامل وتصوير تسويقي",
+  "suggested_name_en": "Brmbo Alsham — Burger & Shawarma Menu Campaign",
+  "suggested_name_ar": "برمبو الشام — حملة منيو البرجر والشاورما",
+  "name_reason": "Has the client but with inconsistent spelling/casing (elsham vs Alsham) and a generic description of the work.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Brmbo elsham | Full menu and marketing photoshoot",
+    "suggestion": "Brmbo Alsham | Full Menu & Marketing Photoshoot",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "placeholder",
+    "current": "and sides.Bites in Focus",
+    "suggestion": "and sides.",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "في هذا المشروع , اهتمينا ... الأطباق ، ... للتصوير ، ... عليها .",
+    "suggestion": "في هذا المشروع، اهتممنا ... الأطباق، ... للتصوير، ... عليها.",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "تفتح النفس و توضح",
+    "suggestion": "تفتح النفس وتوضح",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Cairo , Egypt",
+    "suggestion": "Cairo, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Burger campaign",
+    "suggestion": "Burger Campaign",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـMoodboard",
+    "suggestion": "لوحة الإلهام (المود بورد)",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "النهائية , مع التركيز على إبراز تفاصيل كل برجر ومكوناته",
+    "suggestion": "النهائية، مع التركيز على إبراز تفاصيل كل برجر ومكوناته.",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Menu photoshoot",
+    "suggestion": "Menu Photoshoot",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "كما أيضًا تم تصوير باقي المنيو ، ... والسندويشات ،",
+    "suggestion": "كما تم تصوير باقي المنيو، ... والساندوتشات،",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "جلسة تصوير",
+    "suggestion": "تصوير منتجات للمتاجر الإلكترونية",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "for menus , websites, and delivery platforms",
+    "suggestion": "for menus, websites, and delivery platforms.",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "المنيو , المواقع الالكترونية , مواقع توصيل الطعام",
+    "suggestion": "المنيو والمواقع الإلكترونية ومنصات توصيل الطعام.",
+    "severity": "medium"
+   },
+   {
+    "field": "section4.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "social media designs",
+    "suggestion": "Social Media Designs",
+    "severity": "high"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "واضحةو ملفتة ،",
+    "suggestion": "واضحة وملفتة،",
+    "severity": "medium"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "لقد أنشأنا تصميمات لوسائل التواصل الاجتماعي",
+    "suggestion": "صممنا منشورات للسوشيال ميديا",
+    "severity": "low"
+   },
+   {
+    "field": "section5.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "بطريقه",
+    "suggestion": "بطريقة",
+    "severity": "high"
+   },
+   {
+    "field": "section5.description",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "و عرضهم للعميل بطريقه تناسب طبيعة المطعم",
+    "suggestion": "Not in English; remove or add to EN",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud elgorg — Photographer",
+    "suggestion": "Mahmoud Elgorg — Photographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Aziz Mohamed — Film maker",
+    "suggestion": "Aziz Mohamed — Filmmaker",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Mixed CamelCase hashtags and spaced tags (FoodContentCreation, meals Photography, restaurants Marketing)",
+    "suggestion": "Use consistent spaced lowercase tags"
+   },
+   {
+    "current": "ShawarmaLovers, FoodPhotographyIdeas, FoodContentCreator",
+    "suggestion": "Remove (hashtag-style, not descriptive)"
+   },
+   {
+    "current": "محتوي المطاعم",
+    "suggestion": "محتوى المطاعم"
+   },
+   {
+    "current": "التعديل علي الصور",
+    "suggestion": "التعديل على الصور"
+   },
+   {
+    "current": "محتوى السوشال ميديا (السوشال vs السوشيال elsewhere)",
+    "suggestion": "محتوى السوشيال ميديا"
+   },
+   {
+    "current": "منسق طعام (a job title, not a topic)",
+    "suggestion": "تنسيق الطعام (already present) — remove"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Brmbo Alsham' / 'برمبو الشام'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Brmbo Alsham",
+   "burger photography",
+   "shawarma photography",
+   "menu photography",
+   "restaurant photography",
+   "food styling",
+   "e-commerce food photography",
+   "delivery app photos",
+   "social media design",
+   "food reels",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "برمبو الشام",
+   "تصوير برجر",
+   "تصوير شاورما",
+   "تصوير منيو المطاعم",
+   "تصوير مطاعم",
+   "تنسيق الطعام",
+   "تصوير منتجات للمتاجر الإلكترونية",
+   "صور لتطبيقات التوصيل",
+   "تصميم سوشيال ميديا",
+   "ريلز طعام",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 2,
+  "note": "Strongest scope in this chunk (photo, e-commerce, design, reels) but held back by the stray 'Bites in Focus' text and Arabic punctuation."
+ },
+ {
+  "id": "6a8b2dbc101f869e9ed47e59",
+  "current_name_en": "Dior | Jewelry Photography",
+  "current_name_ar": "كريستن ديور | تصوير مجوهرات",
+  "suggested_name_en": "Zad — Jewelry Photos & Reels with Nancy Khaled",
+  "suggested_name_ar": "زاد — تصوير مجوهرات وريلز مع نانسي خالد",
+  "name_reason": "Uses the Dior trademark although the client is Zad (and misspells Christian Dior in Arabic); generic otherwise.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "en",
+    "type": "claim",
+    "current": "Dior | Jewelry Photography",
+    "suggestion": "Remove 'Dior' — the client is Zad, not Dior",
+    "severity": "high"
+   },
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "claim",
+    "current": "كريستن ديور",
+    "suggestion": "Remove (misspelled 'كريستيان ديور' and not the client)",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "for the jewelry brand focusing on presenting the products in a premium and visually appealing our work included  detailed product photography lifestyle visuals and engaging reels with careful attention to styling composition lighting and overall brand aesthetics we also focused…",
+    "suggestion": "A visual content package for Zad that presents its jewelry in a premium, appealing way. Our work included detailed product photography, lifestyle visuals and engaging reels, with careful attention to styling, composition, lighting and overall brand aesthetics. We also handled creative direction and editing to keep the content consistent and high quality, strengthening the brand's social media presence. In collaboration with Nancy Khaled.",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "البصرية.كما",
+    "suggestion": "البصرية. كما",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "details focused",
+    "suggestion": "Detail-Focused",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "تركز التفاصيل",
+    "suggestion": "التركيز على التفاصيل",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "we focused on capturing the fine details of the jewelry through carefully planned close up shots highlighting the designs textures and finishing details to create a premium presentation",
+    "suggestion": "We focused on the fine details of the jewelry through carefully planned close-up shots, highlighting the designs, textures and finishing for a premium presentation.",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "لإنشاء عرض تقديمي متميز",
+    "suggestion": "لتقديم المجوهرات بصورة فاخرة",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "brand presence",
+    "suggestion": "Brand Presence",
+    "severity": "high"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "ar",
+    "type": "wording",
+    "current": "وجود العلامة التجارية",
+    "suggestion": "حضور العلامة التجارية",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "creating lifestyle oriented visuals that reflect the brand aesthetic and add sense of personality",
+    "suggestion": "Lifestyle-oriented visuals that reflect the brand aesthetic and add a sense of personality.",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "إنشاء صور موجهة نحو أسلوب الحياة",
+    "suggestion": "صور لايف ستايل تعكس جمالية العلامة التجارية وتضيف لها طابعًا شخصيًا.",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "jewelry content creation",
+    "suggestion": "Jewelry Reels",
+    "severity": "high"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "عرض",
+    "suggestion": "ريلز المجوهرات",
+    "severity": "high"
+   },
+   {
+    "field": "section3.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "We created visually engaging jewelry reel that highlights",
+    "suggestion": "We created visually engaging jewelry reels that highlight",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "لقد أنشأنا مجوهرات جذابة بصريًا من الريلز",
+    "suggestion": "أنتجنا ريلز جذابة بصريًا تبرز منتجات العلامة التجارية مع الحفاظ على مظهر فاخر ونظيف.",
+    "severity": "high"
+   },
+   {
+    "field": "section4.caption",
+    "lang": "en",
+    "type": "wording",
+    "current": "BTS",
+    "suggestion": "Behind the Scenes",
+    "severity": "high"
+   },
+   {
+    "field": "section4.caption",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "BTS",
+    "suggestion": "كواليس التصوير",
+    "severity": "high"
+   },
+   {
+    "field": "section4.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "a behind the scene look at our production process showcasing the preparations shooting direction and attention",
+    "suggestion": "A behind-the-scenes look at our production process, showing the preparation, shooting direction and attention",
+    "severity": "medium"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "تعرض اتجاه التصوير للتحضيرات",
+    "suggestion": "تعرض التحضيرات وتوجيه التصوير",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Riham abulrazik — Account manager",
+    "suggestion": "Riham Abulrazik — Account Manager",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; Arabic tags (صابر جروب، تصوير مجوهرات …) are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "35 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "No reels / influencer tags although the project includes reels with Nancy Khaled",
+    "suggestion": "Add 'jewelry reels', 'influencer collaboration'"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Zad'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Zad",
+   "jewelry photography",
+   "gold jewelry",
+   "jewelry close-up photography",
+   "lifestyle jewelry photography",
+   "jewelry model photography",
+   "jewelry reels",
+   "influencer collaboration",
+   "Nancy Khaled",
+   "creative direction",
+   "jewelry photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "زاد",
+   "تصوير مجوهرات",
+   "مجوهرات ذهب",
+   "تصوير مقرب للمجوهرات",
+   "تصوير مجوهرات لايف ستايل",
+   "تصوير مجوهرات مع موديل",
+   "ريلز مجوهرات",
+   "تعاون مع إنفلونسر",
+   "نانسي خالد",
+   "توجيه فني",
+   "تصوير مجوهرات في مصر"
+  ],
+  "missing_content": [
+   "client name not in texts",
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 1,
+  "note": "The page title, Arabic title and slug use the Dior brand for a Zad project — a trademark risk that should be fixed before anything else."
+ },
+ {
+  "id": "6a982e768cb27ff8e7b2f523",
+  "current_name_en": "Experience | Dental Clinic Content & Campaigns",
+  "current_name_ar": "تجربه مختلفه لطب الأسنان",
+  "suggested_name_en": "Dr. Ahmed Alsherif — Dental Reels & Seasonal Campaigns",
+  "suggested_name_ar": "د. أحمد مصطفى الشريف — ريلز طب الأسنان والحملات الموسمية",
+  "name_reason": "Generic, doctor not named, and the Arabic name has taa marbuta errors and differs from English.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "تجربه مختلفه",
+    "suggestion": "تجربة مختلفة",
+    "severity": "high"
+   },
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "تجربه مختلفه لطب الأسنان",
+    "suggestion": "Align with English ('Dental Clinic Content & Campaigns')",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta , Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "spelling",
+    "current": "dثirect-to-camera",
+    "suggestion": "direct-to-camera",
+    "severity": "high"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "عروض العام الجديد",
+    "suggestion": "حملة العام الجديد",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "المحتوى الموسمي",
+    "suggestion": "المحتوى الموسمي.",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "while maintaining a visual direction and the production quality",
+    "suggestion": "while maintaining the visual direction and production quality",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "على السوشيال ميديا ، ... محتوى المشروع",
+    "suggestion": "على السوشيال ميديا، ... محتوى المشروع.",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Inconsistent casing (Title Case mixed with 'ramadan offers', 'Doctor reels making')",
+    "suggestion": "Use consistent lowercase/Title Case"
+   },
+   {
+    "current": "Doctor reels making, dentist reels making / صنع ريلز الطبيب",
+    "suggestion": "doctor reels / ريلز للأطباء"
+   },
+   {
+    "current": "Impacted Teeth, Maxillofacial Surgery",
+    "suggestion": "Keep only if these topics appear in the videos (not mentioned in texts)"
+   },
+   {
+    "current": "الأسنان المدفونه",
+    "suggestion": "الأسنان المدفونة"
+   },
+   {
+    "current": "أسئله عن طب الاسنان",
+    "suggestion": "أسئلة عن طب الأسنان"
+   },
+   {
+    "current": "محتوى بقيادة خبير، العلامة التجارية الشخصية للطبيب (literal translations)",
+    "suggestion": "محتوى يقدمه الطبيب، البراند الشخصي للطبيب"
+   },
+   {
+    "current": "تصوير الأسنان (reads as dental imaging)",
+    "suggestion": "تصوير فيديو لعيادات الأسنان"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group' and the doctor's name"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Dr. Ahmed Alsherif",
+   "dental reels",
+   "cosmetic dentistry content",
+   "veneers",
+   "dental education",
+   "doctor personal branding",
+   "direct-to-camera video",
+   "Ramadan campaign",
+   "New Year offers",
+   "medical marketing",
+   "dental videography"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "د. أحمد الشريف",
+   "ريلز طب الأسنان",
+   "محتوى تجميل الأسنان",
+   "فينير",
+   "توعية بصحة الأسنان",
+   "البراند الشخصي للطبيب",
+   "فيديو مباشر للكاميرا",
+   "حملة رمضان",
+   "عروض العام الجديد",
+   "تسويق طبي",
+   "تصوير فيديو لعيادات الأسنان"
+  ],
+  "missing_content": [
+   "doctor/clinic not named in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": "Client field is formatted 'Prof. Dr . ahmed mostafa alsherif'; clean it to 'Prof. Dr. Ahmed Mostafa Alsherif'."
+ },
+ {
+  "id": "6ac0f3919cfa46e55fd27a24",
+  "current_name_en": "Summer Content",
+  "current_name_ar": "محتوي صيفي",
+  "suggested_name_en": "Asia — Summer Beauty Reels with Creators",
+  "suggested_name_ar": "آسيا — ريلز صيفية لمنتجات التجميل مع صناع المحتوى",
+  "name_reason": "Very generic, no client, and Arabic has a spelling error (محتوي).",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "محتوي صيفي",
+    "suggestion": "محتوى صيفي",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "للستـور",
+    "suggestion": "للمتجر",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـCreative Direction ... والـMedia Production",
+    "suggestion": "التوجيه الإبداعي ... والإنتاج الإعلامي",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "ريلز مع البلوجرز",
+    "suggestion": "ريلز مع صناع المحتوى",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "tanta , egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـCreative Direction",
+    "suggestion": "التوجيه الإبداعي",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "الستـور ومنتجاته",
+    "suggestion": "المتجر ومنتجاته",
+    "severity": "medium"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "ومزيكا",
+    "suggestion": "وموسيقى",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "ريلز  الجمال الصيفية",
+    "suggestion": "ترندات الصيف",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "ترندات الصيف  ومقدمة بشكل مناسب للستـور",
+    "suggestion": "ترندات الصيف ومقدمة بشكل مناسب للمتجر",
+    "severity": "medium"
+   },
+   {
+    "field": "section4.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "bts",
+    "suggestion": "Behind the Scenes",
+    "severity": "high"
+   },
+   {
+    "field": "section4.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "from the Summer Campaign, ... the final content",
+    "suggestion": "from the summer campaign, ... the final content.",
+    "severity": "low"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "المحتوى النهائي",
+    "suggestion": "المحتوى النهائي.",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "hoda — model",
+    "suggestion": "Hoda — Model",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Merna maged — Model",
+    "suggestion": "Merna Maged — Model",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "nour el saadany — model",
+    "suggestion": "Nour El Saadany — Model",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; Arabic tags are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "تصوير منتجات Beessline",
+    "suggestion": "Typo of 'Beesline'; and confirm the store may use this brand name"
+   },
+   {
+    "current": "Beesline product photography",
+    "suggestion": "Brand not mentioned in texts; keep only if approved"
+   },
+   {
+    "current": "Tags are all product-photography (face cream, eye cream) while the texts are about reels and creator videos",
+    "suggestion": "Add 'summer reels', 'creator content', 'beauty store content'"
+   },
+   {
+    "current": "تصوير Lifestyle",
+    "suggestion": "تصوير لايف ستايل"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Asia",
+   "summer campaign",
+   "beauty reels",
+   "creator-led content",
+   "UGC style reels",
+   "skincare content",
+   "cosmetics store marketing",
+   "trending reels",
+   "product videos",
+   "behind the scenes",
+   "beauty content Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "آسيا",
+   "حملة الصيف",
+   "ريلز تجميل",
+   "محتوى مع صناع المحتوى",
+   "ريلز ترند",
+   "محتوى العناية بالبشرة",
+   "تسويق متجر مستحضرات تجميل",
+   "فيديوهات منتجات",
+   "عروض الصيف",
+   "كواليس التصوير",
+   "محتوى تجميل في مصر"
+  ],
+  "missing_content": [
+   "client name not in texts",
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 2,
+  "note": "Arabic texts use tatweel ('الستـور') and many English words; tags describe photography while the project is mostly reels."
+ },
+ {
+  "id": "6a899b8fffc7b28d0ec474e1",
+  "current_name_en": "Mother’s Day Cake Photography",
+  "current_name_ar": "تصوير كيك عيد الأم",
+  "suggested_name_en": "Kreaz — Mother's Day Celebration Cake Campaign",
+  "suggested_name_ar": "كريز — حملة تورت عيد الأم",
+  "name_reason": "Generic; no client name.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "grammar",
+    "current": "the occasion. every detail",
+    "suggestion": "the occasion. Every detail",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "محتوى بصري مميز .\\n",
+    "suggestion": "محتوى بصري مميز. (remove the line break and the space before the period)",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "واهتمينا",
+    "suggestion": "واهتممنا",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "بشكل جذاب ومميز",
+    "suggestion": "بشكل جذاب ومميز.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "SABER GROUP STUDIO",
+    "suggestion": "Saber Group Studios",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "ستوديو صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "لقطة مقربة و بعيدة",
+    "suggestion": "لقطة مقربة وواسعة",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "wording",
+    "current": "the finer presence of the cake",
+    "suggestion": "the cake's finer details",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـWide Shots ... الـtexture",
+    "suggestion": "اللقطات الواسعة ... الملمس",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "اللقطات القريبه",
+    "suggestion": "اللقطات القريبة",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "والجو العام ،",
+    "suggestion": "والجو العام،",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mother's day Project",
+    "suggestion": "Mother's Day Hero Shot",
+    "severity": "medium"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "والـstyling والجو العام في Composition واحدة",
+    "suggestion": "والتنسيق والجو العام في تكوين واحد",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud elgorg — Photographer",
+    "suggestion": "Mahmoud Elgorg — Photographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud atta — light assistant",
+    "suggestion": "Mahmoud Atta — Lighting Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "CamelCase hashtags (CakePhotography, MothersDay, …)",
+    "suggestion": "Use normal spaced tags"
+   },
+   {
+    "current": "InstagramMarketing, DigitalContent, ContentCreation",
+    "suggestion": "Remove (generic / not this project's service)"
+   },
+   {
+    "current": "تورته الاحتفال",
+    "suggestion": "تورتة الاحتفال"
+   },
+   {
+    "current": "تصميم التورت / تصميم الحلويات / تصميم الطعام / مصمم الطعام",
+    "suggestion": "تنسيق التورت / تنسيق الحلويات / تنسيق الطعام (styling, not design)"
+   },
+   {
+    "current": "سوشال ميديا كامبين، التصوير السوشال ميديا",
+    "suggestion": "حملة سوشيال ميديا، تصوير للسوشيال ميديا"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group', 'Kreaz'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Kreaz",
+   "Mother's Day",
+   "celebration cake photography",
+   "cake photography",
+   "dessert photography",
+   "cake styling",
+   "food styling",
+   "seasonal campaign",
+   "close-up food photography",
+   "social media content",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كريز",
+   "عيد الأم",
+   "تصوير تورت المناسبات",
+   "تصوير تورت",
+   "تصوير حلويات",
+   "تنسيق التورت",
+   "تنسيق الطعام",
+   "حملة موسمية",
+   "تصوير مقرب للطعام",
+   "محتوى سوشيال ميديا",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "client name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": "Sector list includes 'photography', which is a service, not the client's sector."
+ },
+ {
+  "id": "6a980224dc44fe3f21732eb3",
+  "current_name_en": "Refresh | Coffee & Drinks Photography",
+  "current_name_ar": "تصوير منتجات القهوة والمشروبات",
+  "suggested_name_en": "Kreaz — Coffee & Cold Drinks Lifestyle Photography",
+  "suggested_name_ar": "كريز — تصوير القهوة والمشروبات الباردة بأسلوب لايف ستايل",
+  "name_reason": "Generic; no client and the 'Refresh' label is missing in Arabic.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "wording",
+    "current": "product-focused shots, apple and cold beverages",
+    "suggestion": "product-focused shots of coffee, apple and other cold drinks",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "لقطات Lifestyle",
+    "suggestion": "لقطات لايف ستايل",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "wording",
+    "current": "Coffee & Beverage Visual Materials",
+    "suggestion": "Coffee & Beverage Visual Library",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "wording",
+    "current": "الماتيريال البصرية للقهوة والمشروبات",
+    "suggestion": "المحتوى البصري للقهوة والمشروبات",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "generic",
+    "current": "A complete collection of visual materials for coffee and beverage products…",
+    "suggestion": "Largely repeats the main description; describe what this gallery specifically shows",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الماتيريال ... واللقطات الـ Lifestyle",
+    "suggestion": "المحتوى البصري ... ولقطات اللايف ستايل",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "استديوهات صابر جروب",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "26 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "commercial coffee photography / commercial beverage photography / commercial product photography",
+    "suggestion": "Keep one 'commercial beverage photography'"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Kreaz'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Kreaz",
+   "coffee photography",
+   "beverage photography",
+   "cold drinks photography",
+   "lifestyle product photography",
+   "commercial photography",
+   "cafe content",
+   "social media content",
+   "advertising photography",
+   "drink styling"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كريز",
+   "تصوير قهوة",
+   "تصوير مشروبات",
+   "تصوير مشروبات باردة",
+   "تصوير منتجات لايف ستايل",
+   "تصوير تجاري",
+   "محتوى للمقاهي",
+   "محتوى سوشيال ميديا",
+   "تصوير إعلاني",
+   "تنسيق المشروبات"
+  ],
+  "missing_content": [
+   "only one section",
+   "client name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": ""
+ },
+ {
+  "id": "6a94c9d9d1321c1d6b1df913",
+  "current_name_en": "Inside | Real Estate Brand Content Production",
+  "current_name_ar": "من داخل شركة العقارات",
+  "suggested_name_en": "Valora — Team-Led Real Estate Reels",
+  "suggested_name_ar": "فالورا — ريلز عقارية يقدّمها فريق الشركة",
+  "name_reason": "Generic; company not named although the idea (staff presenting the brand) is distinctive.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "خلّينا فريق الشركة جزء من المحتوى",
+    "suggestion": "جعلنا فريق الشركة جزءًا من المحتوى",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "tanta , Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "through the people behind it",
+    "suggestion": "through the people behind it.",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "تقليدي فقط ، خلّينا",
+    "suggestion": "تقليدي فقط، جعلنا",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "كل موظف قدّم جزء من الصورة",
+    "suggestion": "كل موظف قدّم جزءًا من الصورة",
+    "severity": "low"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "en",
+    "type": "wording",
+    "current": "BTS | Real estate",
+    "suggestion": "Behind the Scenes",
+    "severity": "high"
+   },
+   {
+    "field": "section2.caption",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "BTS | العقارات",
+    "suggestion": "كواليس التصوير",
+    "severity": "high"
+   },
+   {
+    "field": "section2.description",
+    "lang": "en",
+    "type": "wording",
+    "current": "The BTS is more than",
+    "suggestion": "The behind-the-scenes footage is more than",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـBTS هنا",
+    "suggestion": "الكواليس هنا",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "bassant el garhy — account manager",
+    "suggestion": "Bassant El Garhy — Account Manager",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "RealEstate Marketing, Realestatemarketing (duplicates, broken casing)",
+    "suggestion": "real estate marketing"
+   },
+   {
+    "current": "Recruitment Marketing, Blogger Marketing",
+    "suggestion": "Remove (not part of this project)"
+   },
+   {
+    "current": "RealEstateTeam Reels and other CamelCase tags",
+    "suggestion": "Use spaced tags, e.g. 'real estate team reels'"
+   },
+   {
+    "current": "محتوي التيم",
+    "suggestion": "محتوى فريق العمل"
+   },
+   {
+    "current": "كامبين شركات عقارات",
+    "suggestion": "حملات لشركات العقارات"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group', 'Valora'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Valora",
+   "real estate reels",
+   "employer branding",
+   "team-led content",
+   "real estate videography",
+   "on-site property video",
+   "real estate marketing",
+   "behind the scenes",
+   "real estate social media",
+   "Tanta"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "فالورا",
+   "ريلز عقارية",
+   "العلامة التجارية لصاحب العمل",
+   "محتوى يقدمه فريق العمل",
+   "تصوير فيديو عقاري",
+   "ريلز من موقع المشروع",
+   "تسويق عقاري",
+   "كواليس التصوير",
+   "سوشيال ميديا لشركات العقارات",
+   "طنطا"
+  ],
+  "missing_content": [
+   "company name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": "Arabic is colloquial throughout; good concept worth naming the client."
+ },
+ {
+  "id": "6a970ac5e7c3c643c0b72ecc",
+  "current_name_en": "Macro dessert photoshoot",
+  "current_name_ar": "جلسة تصوير حلوى ماكرو",
+  "suggested_name_en": "Kreaz — Macro Dessert Texture Photoshoot",
+  "suggested_name_ar": "كريز — تصوير ماكرو لتفاصيل الحلويات",
+  "name_reason": "Generic, lowercase words, no client; Arabic wording is awkward.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Macro dessert photoshoot",
+    "suggestion": "Macro Dessert Photoshoot",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "visually appetizing content",
+    "suggestion": "visually appetizing content.",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "وشهية بصريًا",
+    "suggestion": "وشهية بصريًا.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta . Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا. مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "sweet in macro",
+    "suggestion": "Sweets in Macro",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "missing_translation",
+    "current": "(empty)",
+    "suggestion": "الحلويات بعدسة الماكرو",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "generic",
+    "current": "We produced a macro-focused dessert photoshoot designed to highlight the finest details…",
+    "suggestion": "Repeats the main description; name the desserts shown (the tags suggest baklava and kunafa) and add a final period",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "بأسلوب الـMacro",
+    "suggestion": "بأسلوب الماكرو",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud elgorg — Photographer",
+    "suggestion": "Mahmoud Elgorg — Photographer",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "29 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "saber group, sabergroup, sabergroupstudios",
+    "suggestion": "Saber Group"
+   },
+   {
+    "current": "تصوير ماكرو للحلويات / تصوير حلويات ماكرو",
+    "suggestion": "Keep one"
+   },
+   {
+    "current": "baklava photography, kunafa photography",
+    "suggestion": "Products not mentioned in texts; keep only if shown, and mention them in the description"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Kreaz'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Kreaz",
+   "macro food photography",
+   "macro dessert photography",
+   "oriental dessert photography",
+   "baklava",
+   "kunafa",
+   "food texture photography",
+   "close-up product photography",
+   "food styling",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "كريز",
+   "تصوير ماكرو للطعام",
+   "تصوير ماكرو للحلويات",
+   "تصوير حلويات شرقية",
+   "بقلاوة",
+   "كنافة",
+   "تصوير ملمس الطعام",
+   "تصوير مقرب للمنتجات",
+   "تنسيق الطعام",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "Arabic caption for section 1",
+   "client name not in texts",
+   "no list of the desserts shown",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 2,
+  "note": ""
+ },
+ {
+  "id": "6a96fb0a0e6876114114cb2e",
+  "current_name_en": "Corporate Profile & Print Design for Engaz",
+  "current_name_ar": "الملف التعريفي وتصميم المطبوعات لشركة إنجاز",
+  "suggested_name_en": "Engaz Real Estate — Corporate Profile & Brochures",
+  "suggested_name_ar": "إنجاز العقارية — الملف التعريفي والبروشورات",
+  "name_reason": "Fine (names client and work); slightly tightened. Very close to the other Engaz print project's name.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "professional and cohesive corporate presentation",
+    "suggestion": "professional and cohesive corporate presentation.",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "سهولة قراءة المعلومات",
+    "suggestion": "سهولة قراءة المعلومات.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta. Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا. مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "real estate brochures",
+    "suggestion": "Real Estate Brochures",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "wording",
+    "current": "كتيبات العقارات",
+    "suggestion": "البروشورات العقارية",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "spelling",
+    "current": "for Enjaz",
+    "suggestion": "for Engaz",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "للبراند",
+    "suggestion": "للبراند.",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "presenting the project’s key information",
+    "suggestion": "Main description is about a corporate profile and business cards, the section about project brochures; name the project (tags say Al Fayrouz Tower) or align the texts",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Mahmoud el sheiekh — Graphic Design",
+    "suggestion": "Mahmoud El Sheikh — Graphic Designer (confirm spelling of surname)",
+    "severity": "medium"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; Arabic tags are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "49 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "saber group, sabergroup, sabergroupstudios",
+    "suggestion": "Saber Group"
+   },
+   {
+    "current": "Al Fayrouz Tower / Al Fayrouz Tower project / Al Fayrouz project / Al Fayrouz brochure",
+    "suggestion": "One tag 'Al Fayrouz Tower' — and mention the project in the texts, or remove"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Engaz Real Estate'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Engaz Real Estate",
+   "Al Fayrouz Tower",
+   "company profile design",
+   "real estate brochure design",
+   "print design",
+   "business card design",
+   "corporate identity",
+   "real estate marketing collateral",
+   "graphic design Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "إنجاز العقارية",
+   "برج الفيروز",
+   "تصميم بروفايل شركة",
+   "تصميم بروشور عقاري",
+   "تصميم مطبوعات",
+   "تصميم كروت شخصية",
+   "هوية مؤسسية",
+   "مواد تسويقية عقارية",
+   "تصميم جرافيك في مصر"
+  ],
+  "missing_content": [
+   "only one section",
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 3,
+  "note": "Overlaps heavily with the other Engaz print project (6a96ce4e94082b199a0349c6); consider merging them into one project."
+ },
+ {
+  "id": "6a96ce4e94082b199a0349c6",
+  "current_name_en": "Brand Identity & Print Collateral Design for real estate",
+  "current_name_ar": "تصميم هوية العلامة التجارية والطباعة للعقارات",
+  "suggested_name_en": "Engaz Real Estate — Brand Identity & Stationery",
+  "suggested_name_ar": "إنجاز العقارية — الهوية البصرية والأدوات المكتبية",
+  "name_reason": "Generic, no client in the name, lowercase 'real estate'; Arabic 'والطباعة' is awkward.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "en",
+    "type": "formatting",
+    "current": "for real estate",
+    "suggestion": "for Real Estate",
+    "severity": "medium"
+   },
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "wording",
+    "current": "تصميم هوية العلامة التجارية والطباعة للعقارات",
+    "suggestion": "تصميم الهوية البصرية والمطبوعات لشركة عقارية",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـ Letterhead",
+    "suggestion": "الورق الرسمي (الليترهيد)",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta . Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "طنطا. مصر",
+    "suggestion": "طنطا، مصر",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "generic",
+    "current": "designs",
+    "suggestion": "Profile, Brochures & Stationery",
+    "severity": "high"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "generic",
+    "current": "تصاميم",
+    "suggestion": "البروفايل والبروشورات والمطبوعات",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "generic",
+    "current": "A complete set of branded print and corporate materials for Engaz Real Estate, including the company profile, brochures, folders, letterheads…",
+    "suggestion": "Repeats the main description; describe the visual system (colors, typography, layout) instead",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـ Brochure، الـ Folder، الـ Letterhead",
+    "suggestion": "البروشورات، الفولدرات، الورق الرسمي",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Mahmoud el sheiekh — Graphic Design",
+    "suggestion": "Mahmoud El Sheikh — Graphic Designer (confirm spelling of surname)",
+    "severity": "medium"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; Arabic tags are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "saber group, sabergroup, sabergroupstudios",
+    "suggestion": "Saber Group"
+   },
+   {
+    "current": "brand identity / visual identity / brand identity design / corporate identity / branding / branding design",
+    "suggestion": "Keep 'brand identity design' and 'corporate identity'"
+   },
+   {
+    "current": "brochure / brochure design; company profile / company profile design",
+    "suggestion": "Keep the 'design' variant only"
+   },
+   {
+    "current": "envelope design, business card design, catalog design, digital brochure, تصميم فلاير",
+    "suggestion": "Not mentioned in texts; keep only if shown"
+   },
+   {
+    "current": "تصميم Letterhead",
+    "suggestion": "تصميم ورق رسمي"
+   },
+   {
+    "current": "No client tag",
+    "suggestion": "Add 'Engaz Real Estate'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Engaz Real Estate",
+   "brand identity design",
+   "corporate identity",
+   "company profile design",
+   "brochure design",
+   "folder design",
+   "letterhead design",
+   "stationery design",
+   "real estate branding",
+   "graphic design Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "إنجاز العقارية",
+   "تصميم هوية بصرية",
+   "هوية مؤسسية",
+   "تصميم بروفايل شركة",
+   "تصميم بروشور",
+   "تصميم فولدر",
+   "تصميم ورق رسمي",
+   "تصميم أدوات مكتبية",
+   "هوية عقارية",
+   "تصميم جرافيك في مصر"
+  ],
+  "missing_content": [
+   "only one section",
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 2,
+  "note": "Near-duplicate of the Engaz corporate profile project (6a96fb0a0e6876114114cb2e); merge or clearly differentiate."
+ },
+ {
+  "id": "6a8db6c4bd8266596f491762",
+  "current_name_en": "Gynecology | Medical Content & Branding",
+  "current_name_ar": "هوية طبية مختلفة",
+  "suggested_name_en": "Dr. Ahmed Elbahrawi — Gynecology Shoot & Pink Social Identity",
+  "suggested_name_ar": "د. أحمد البحراوي — تصوير وهوية سوشيال ميديا لطب النساء",
+  "name_reason": "Generic, doctor not named, and EN/AR differ ('a different medical identity').",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "هوية طبية مختلفة",
+    "suggestion": "Align with English name",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "the photo session  , all the way",
+    "suggestion": "the photo session all the way",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "wording",
+    "current": "a professional and consistent image of content",
+    "suggestion": "a professional and consistent image for the doctor",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "الدكتور و تخصصه ... المهنية",
+    "suggestion": "الدكتور وتخصصه ... المهنية.",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Medical Photoshoot",
+    "suggestion": "The description talks about the social media visual identity, not the photoshoot; describe the shoot here",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "المهنية ، مع الحفاظ على التصاميم واضحة و متناسقة و سهلة للتواصل",
+    "suggestion": "المهنية، مع الحفاظ على تصاميم واضحة ومتناسقة وسهلة التواصل",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "simple and clear",
+    "suggestion": "simple and clear.",
+    "severity": "low"
+   },
+   {
+    "field": "section2.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "اللون البينك ... التخصص و الجمهور",
+    "suggestion": "اللون الوردي ... التخصص والجمهور",
+    "severity": "low"
+   },
+   {
+    "field": "section3.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Social media designs | Campaign No.2",
+    "suggestion": "Social Media Designs | Campaign 2",
+    "severity": "low"
+   },
+   {
+    "field": "section3.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "تخصص الدكتور مع الحفاظ ... للدكتور",
+    "suggestion": "تخصص الدكتور، مع الحفاظ ... للدكتور.",
+    "severity": "low"
+   },
+   {
+    "field": "section4.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "ريلز بسيط عن السونار و دوره",
+    "suggestion": "ريل بسيط عن السونار ودوره",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Amr shehata — graphic designer",
+    "suggestion": "Amr Shehata — Graphic Designer",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Only 5 EN / 4 AR tags",
+    "suggestion": "Add specific tags (gynecology, women's health, ultrasound reel, pink identity)"
+   },
+   {
+    "current": "doctors personal Branding",
+    "suggestion": "doctor personal branding"
+   },
+   {
+    "current": "EN has 'doctors personal Branding' with no Arabic equivalent",
+    "suggestion": "Add 'البراند الشخصي للطبيب'"
+   },
+   {
+    "current": "تصاميم السوشال ميديا",
+    "suggestion": "تصاميم السوشيال ميديا"
+   },
+   {
+    "current": "No agency tag",
+    "suggestion": "Add 'Saber Group'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Dr. Ahmed Elbahrawi",
+   "gynecology content",
+   "women's health",
+   "doctor photoshoot",
+   "doctor personal branding",
+   "medical social media design",
+   "pink visual identity",
+   "medical reel",
+   "pregnancy ultrasound",
+   "medical marketing"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "د. أحمد البحراوي",
+   "محتوى طب النساء والتوليد",
+   "صحة المرأة",
+   "تصوير الأطباء",
+   "البراند الشخصي للطبيب",
+   "تصميم سوشيال ميديا طبي",
+   "هوية بصرية وردية",
+   "ريل طبي",
+   "سونار الحمل",
+   "تسويق طبي"
+  ],
+  "missing_content": [
+   "doctor not named in texts",
+   "no client goal",
+   "no results",
+   "services list lacks graphic design and video although designs and a reel are shown"
+  ],
+  "quality_score": 3,
+  "note": "Client field 'Dr.Ahmed elbahrawi' and sector 'Obstetrics & Gynecology.' (trailing period) need cleanup."
+ },
+ {
+  "id": "6a94680c23985db8dc330927",
+  "current_name_en": "AlMasa clinic photoshoot",
+  "current_name_ar": "فوتوشوت لعيادة الماسة",
+  "suggested_name_en": "Al-Masa Clinic — Modern Clinic Interior Photoshoot",
+  "suggested_name_ar": "عيادة الماسة — تصوير الديكور الداخلي للعيادة",
+  "name_reason": "Generic, lowercase, and the clinic name is spelled three ways (AlMasa / Al-Masa / AL Masa).",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "en",
+    "type": "formatting",
+    "current": "AlMasa clinic photoshoot",
+    "suggestion": "Al-Masa Clinic Photoshoot",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "Professor Dr. Mohamed Saeed Abu El Enein",
+    "suggestion": "Client record says 'Mohamed saad abo elenine'; confirm Saad vs Saeed and use one spelling",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "خبرة العيادة ومستواها",
+    "suggestion": "خبرة العيادة ومستواها.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "AL Masa clinic . Tanta",
+    "suggestion": "Al-Masa Clinic, Tanta",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "عيادة الماسة. طنطا",
+    "suggestion": "عيادة الماسة، طنطا",
+    "severity": "low"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "en",
+    "type": "formatting",
+    "current": "clinic photoshoot",
+    "suggestion": "Clinic Interior",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "professional interior photography ... color palette",
+    "suggestion": "Professional interior photography ... color palette.",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "بألوان هادئة ومتناسقة",
+    "suggestion": "بدرجات الأزرق والبني الهادئة (EN names the colors)",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mohamed Jabal — Light assistant",
+    "suggestion": "Mohamed Jabal — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Esraa Fouad — Project manager",
+    "suggestion": "Esraa Fouad — Project Manager",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "tagsAr is empty; Arabic tags are stored in tagsEn",
+    "suggestion": "Move Arabic tags to tagsAr"
+   },
+   {
+    "current": "38 near-identical long-tail tags (e.g. '... photography egypt' variants)",
+    "suggestion": "Keep 8–15 distinct tags; drop the repeated 'X photography / X photoshoot / X photography egypt' variants"
+   },
+   {
+    "current": "sabergroup, sabergroupstudios (agency brand tags repeated)",
+    "suggestion": "Keep a single agency tag ('Saber Group') or drop it — it does not describe the project"
+   },
+   {
+    "current": "clinic photography / medical clinic photography / doctor clinic photography / clinic interior photography",
+    "suggestion": "Keep 'clinic interior photography'"
+   },
+   {
+    "current": "No clinic tag",
+    "suggestion": "Add 'Al-Masa Clinic'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Al-Masa Clinic",
+   "clinic interior photography",
+   "medical facility photography",
+   "interior photography",
+   "architectural photography",
+   "healthcare branding",
+   "laparoscopic surgery clinic",
+   "Tanta",
+   "interior photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "عيادة الماسة",
+   "تصوير عيادات",
+   "تصوير منشآت طبية",
+   "تصوير داخلي",
+   "تصوير معماري",
+   "هوية طبية",
+   "عيادة جراحة المناظير",
+   "طنطا",
+   "تصوير داخلي في مصر"
+  ],
+  "missing_content": [
+   "only one section",
+   "no portrait of the doctor though the description says 'featuring' him",
+   "no client goal",
+   "no results",
+   "Arabic tags missing (stored in English list)"
+  ],
+  "quality_score": 2,
+  "note": ""
+ },
+ {
+  "id": "6a95c5ab631b9e468059f8d5",
+  "current_name_en": "Flavors | Ramadan Food Campaign Photography",
+  "current_name_ar": "حكايات الأكل في رمضان",
+  "suggested_name_en": "Mahanez Ibn Awad — Ramadan 2025 Food Shoot & Reels",
+  "suggested_name_ar": "حملة رمضان 2025 — تصوير تسويقي وريلز للمأكولات",
+  "name_reason": "Generic, no client, and EN/AR differ ('Flavors' vs 'food stories'). Arabic name built from the concept until the client's Arabic spelling is confirmed.",
+  "issues": [
+   {
+    "field": "name",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "حكايات الأكل في رمضان",
+    "suggestion": "Align with English name",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "wording",
+    "current": "we worked on a group of marketing content",
+    "suggestion": "we produced a set of marketing content",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "through a Marketing Photoshoot, ... We focused on Varying the content",
+    "suggestion": "through a marketing photoshoot, ... We focused on varying the content",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "مجموعة من المحتوي التسويقي",
+    "suggestion": "مجموعة من المحتوى التسويقي",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "Marketing Photoshoot مخصص، إلى جانب Reels للسوشال ميديا",
+    "suggestion": "جلسة تصوير تسويقية مخصصة، إلى جانب ريلز للسوشيال ميديا",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "بالتعاون مع : هدير علوان",
+    "suggestion": "بالتعاون مع: هدير علوان",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "اشتغلنا ... اللي بتقدم",
+    "suggestion": "عملنا ... الذي يقدّم",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "cairo  , egypt",
+    "suggestion": "Cairo, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "أطباق بطابع رمضاني",
+    "suggestion": "جلسة التصوير التسويقية لرمضان",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wrong_language",
+    "current": "الـMarketing Shots",
+    "suggestion": "اللقطات التسويقية",
+    "severity": "medium"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "CamelCase hashtags (SocialMediaContent, BrandDesign, …)",
+    "suggestion": "Use normal spaced tags"
+   },
+   {
+    "current": "FoodStyling / food styling / FoodStylingPhotography",
+    "suggestion": "food styling"
+   },
+   {
+    "current": "براندج الطعام",
+    "suggestion": "هوية بصرية للمطاعم"
+   },
+   {
+    "current": "محتوي الطعام",
+    "suggestion": "محتوى الطعام"
+   },
+   {
+    "current": "اتجاه إبداعي، إبداع السوشال ميديا، لايف ستايل للتصوير (literal translations)",
+    "suggestion": "توجيه فني، تصاميم سوشيال ميديا، تصوير لايف ستايل"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group', 'Mahanez Ibn Awad'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Mahanez Ibn Awad",
+   "Ramadan campaign",
+   "Ramadan food photography",
+   "marketing photoshoot",
+   "food reels",
+   "food styling",
+   "lifestyle food photography",
+   "restaurant marketing",
+   "social media content",
+   "Hadeer Alwan"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "حملة رمضان",
+   "تصوير أكل رمضان",
+   "جلسة تصوير تسويقية",
+   "ريلز أكل",
+   "تنسيق الطعام",
+   "تصوير طعام لايف ستايل",
+   "تسويق المطاعم",
+   "محتوى سوشيال ميديا",
+   "هدير علوان"
+  ],
+  "missing_content": [
+   "no reels section although reels are described",
+   "client name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 2,
+  "note": "Client spelling ('Mahanez Ibn awad') and its Arabic form should be confirmed before using it in titles."
+ },
+ {
+  "id": "6ad100d380321624ba4f0468",
+  "current_name_en": "Turkish Cuisine Photography",
+  "current_name_ar": "تصوير المطبخ التركي",
+  "suggested_name_en": "Otantic — Turkish Dishes & Serving Trays Photoshoot",
+  "suggested_name_ar": "أوتانتيك — تصوير الأطباق والصواني التركية",
+  "name_reason": "Generic; no client name.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "وتفاصيله اللي بتخلي الأكل جذاب بصريًا. الصور بتعكس",
+    "suggestion": "وتفاصيله التي تجعل الأكل جذابًا بصريًا. تعكس الصور",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "على المنصات الرقمية",
+    "suggestion": "على المنصات الرقمية.",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Tanta , Egypt",
+    "suggestion": "Tanta, Egypt",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "stand out visually",
+    "suggestion": "stand out visually.",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "grammar",
+    "current": "وتخلي طريقة عرضها جزء أساسي",
+    "suggestion": "وتجعل طريقة عرضها جزءًا أساسيًا",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "من جاذبية الصورة",
+    "suggestion": "من جاذبية الصورة.",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Rahma ahmed — Styling assistant",
+    "suggestion": "Rahma Ahmed — Styling Assistant",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Retouch, photoshoot, photo editing, Creative Editing, Digital Retouching",
+    "suggestion": "Too generic; keep one 'food retouching'"
+   },
+   {
+    "current": "Turkish photoshoot / Turkish cuisine photoshoot",
+    "suggestion": "Turkish food photography"
+   },
+   {
+    "current": "محتوي الطعام",
+    "suggestion": "محتوى الطعام"
+   },
+   {
+    "current": "ريتاتش، التقاط صورة",
+    "suggestion": "تعديل الصور (remove 'التقاط صورة')"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group', 'Otantic'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Otantic",
+   "Turkish food photography",
+   "Turkish restaurant",
+   "menu photography",
+   "restaurant photography",
+   "serving tray photography",
+   "food styling",
+   "food retouching",
+   "food photography Egypt"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "أوتانتيك",
+   "تصوير أكل تركي",
+   "مطعم تركي",
+   "تصوير منيو المطاعم",
+   "تصوير مطاعم",
+   "تصوير صواني الطعام",
+   "تنسيق الطعام",
+   "تعديل صور الطعام",
+   "تصوير طعام في مصر"
+  ],
+  "missing_content": [
+   "only one section",
+   "dishes not named",
+   "client name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": ""
+ },
+ {
+  "id": "6ad0c3a2e9ac3204d09ad42b",
+  "current_name_en": "Neutrals | Summer Collection Photoshoot",
+  "current_name_ar": "فوتوشوت لمجموعة ملابس صيفية",
+  "suggested_name_en": "Peacock — Neutral-Tone Summer Womenswear Shoot",
+  "suggested_name_ar": "بيكوك — تصوير مجموعة الصيف النسائية بألوان هادئة",
+  "name_reason": "Generic; no brand name and Arabic drops the 'Neutrals' idea.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "ألوان نود هادية",
+    "suggestion": "ألوان نود هادئة",
+    "severity": "high"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "بتبرز تفاصيل كل قطعة",
+    "suggestion": "تبرز تفاصيل كل قطعة",
+    "severity": "low"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "inconsistent",
+    "current": "in collaboration with Norhan Khaled",
+    "suggestion": "Norhan Khaled is not in the cast (cast lists Roh Sharaf as content creator); confirm the collaborator",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "saber group studio",
+    "suggestion": "Saber Group Studios",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "translation_mismatch",
+    "current": "أساسيات الإطلالة الصيفية",
+    "suggestion": "أساسيات الصيف | تصوير ملابس نسائية",
+    "severity": "low"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "الألوان الهادية",
+    "suggestion": "الألوان الهادئة",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "بتنسيقات متنوعة، بتوضح",
+    "suggestion": "بتنسيقات متنوعة توضح",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Nouran tarekk — Social media specialist",
+    "suggestion": "Nouran Tarek — Social Media Specialist",
+    "severity": "medium"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Photoshoot model, Photoshoot, Model Shoot",
+    "suggestion": "Model photoshoot"
+   },
+   {
+    "current": "Light weight Fabrics",
+    "suggestion": "lightweight fabrics"
+   },
+   {
+    "current": "Lighting Setup, Professional Photography, Photo Styling",
+    "suggestion": "Remove (generic)"
+   },
+   {
+    "current": "فاشون",
+    "suggestion": "أزياء"
+   },
+   {
+    "current": "موديل فوتوشوت، التصوير",
+    "suggestion": "جلسة تصوير موديل (remove 'التصوير')"
+   },
+   {
+    "current": "EN has 23 tags, AR only 9",
+    "suggestion": "Keep both lists in sync"
+   },
+   {
+    "current": "No agency or client tag",
+    "suggestion": "Add 'Saber Group', 'Peacock'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Peacock",
+   "fashion photography",
+   "summer collection",
+   "women's wear",
+   "model photoshoot",
+   "neutral tones",
+   "nude palette",
+   "lightweight fabrics",
+   "minimal styling",
+   "clothing brand photography"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "بيكوك",
+   "تصوير أزياء",
+   "مجموعة الصيف",
+   "ملابس نسائية",
+   "جلسة تصوير موديل",
+   "ألوان محايدة",
+   "ألوان نود",
+   "أقمشة خفيفة",
+   "تنسيق بسيط",
+   "تصوير براندات ملابس"
+  ],
+  "missing_content": [
+   "only one section",
+   "brand name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 3,
+  "note": "Client field is lowercase 'peacock'."
+ },
+ {
+  "id": "6ad0cd04eae8d80f7f596d15",
+  "current_name_en": "Brilliant | Diamond Jewelry Photoshoot",
+  "current_name_ar": "فوتوشوت الألماس",
+  "suggested_name_en": "Zad — Diamond Jewelry Photoshoot with Nancy Khaled",
+  "suggested_name_ar": "زاد — تصوير مجوهرات الألماس مع نانسي خالد",
+  "name_reason": "Generic; no client and the Arabic name is very short.",
+  "issues": [
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "A diamond jewelry photoshoot , showcasing",
+    "suggestion": "A diamond jewelry photoshoot showcasing",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "en",
+    "type": "formatting",
+    "current": "\\nin collaboration with Nancy Khaled",
+    "suggestion": "In collaboration with Nancy Khaled.",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "inconsistent",
+    "current": "بالتعاون مع نانسي خالد ... \\nبالتعاون مع نانسي خالد",
+    "suggestion": "Mentioned twice; keep one",
+    "severity": "medium"
+   },
+   {
+    "field": "description",
+    "lang": "ar",
+    "type": "wording",
+    "current": "بتجمع بين",
+    "suggestion": "تجمع بين",
+    "severity": "low"
+   },
+   {
+    "field": "location",
+    "lang": "en",
+    "type": "formatting",
+    "current": "saber group studio",
+    "suggestion": "Saber Group Studios",
+    "severity": "medium"
+   },
+   {
+    "field": "location",
+    "lang": "ar",
+    "type": "wording",
+    "current": "صابر جروب استديو",
+    "suggestion": "استوديوهات صابر جروب",
+    "severity": "medium"
+   },
+   {
+    "field": "section1.caption",
+    "lang": "ar",
+    "type": "missing_translation",
+    "current": "(empty)",
+    "suggestion": "بريق | تصوير مجوهرات الألماس",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "spelling",
+    "current": "قطع الماس",
+    "suggestion": "قطع الألماس",
+    "severity": "high"
+   },
+   {
+    "field": "section1.description",
+    "lang": "ar",
+    "type": "formatting",
+    "current": "و التركيز",
+    "suggestion": "والتركيز",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "spelling",
+    "current": "Ahmed saber — Art Directot, Marketeer, Photographer",
+    "suggestion": "Ahmed Saber — Art Director, Marketer, Photographer",
+    "severity": "high"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Mahmoud shika — light assistant",
+    "suggestion": "Mahmoud Shika — Lighting Assistant",
+    "severity": "low"
+   },
+   {
+    "field": "cast",
+    "lang": "en",
+    "type": "formatting",
+    "current": "Saied saied — videographer",
+    "suggestion": "Saied Saied — Videographer",
+    "severity": "low"
+   }
+  ],
+  "tag_issues": [
+   {
+    "current": "Model photograpgy",
+    "suggestion": "Model photography"
+   },
+   {
+    "current": "JewelryDetails / Jewelry Details",
+    "suggestion": "jewelry details"
+   },
+   {
+    "current": "Photography Portfolio",
+    "suggestion": "Remove (irrelevant)"
+   },
+   {
+    "current": "تصوير إحترافي",
+    "suggestion": "تصوير احترافي"
+   },
+   {
+    "current": "دايموند / ألماس (same word twice)",
+    "suggestion": "ألماس"
+   },
+   {
+    "current": "No agency, client or influencer tag",
+    "suggestion": "Add 'Saber Group', 'Zad', 'Nancy Khaled'"
+   }
+  ],
+  "suggested_tags_en": [
+   "Saber Group",
+   "Zad",
+   "diamond jewelry photography",
+   "jewelry photography",
+   "jewelry model photography",
+   "luxury product photography",
+   "jewelry details",
+   "influencer collaboration",
+   "Nancy Khaled",
+   "studio photography"
+  ],
+  "suggested_tags_ar": [
+   "صابر جروب",
+   "زاد",
+   "تصوير مجوهرات الألماس",
+   "تصوير مجوهرات",
+   "تصوير مجوهرات مع موديل",
+   "تصوير منتجات فاخرة",
+   "تفاصيل المجوهرات",
+   "تعاون مع إنفلونسر",
+   "نانسي خالد",
+   "تصوير استوديو"
+  ],
+  "missing_content": [
+   "Arabic caption for section 1",
+   "only one section",
+   "client name not in texts",
+   "no client goal",
+   "no results"
+  ],
+  "quality_score": 2,
+  "note": "Services label 'jewellery content' uses British spelling while the rest of the site uses 'jewelry'."
+ }
+]
