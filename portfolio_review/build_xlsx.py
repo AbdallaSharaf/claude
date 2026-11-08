@@ -14,7 +14,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[1]
-SITE = "https://sabergroup-eg.com/portfolio/"
+SITE = "https://dev.sabergroup-eg.com/portfolio/"
 
 projects = {p["_id"]: p for p in json.load(open(f"{HERE}/projects.json"))["projects"] if not p.get("deleted")}
 flat = {p["id"]: p for p in json.load(open(f"{HERE}/flat.json"))}
