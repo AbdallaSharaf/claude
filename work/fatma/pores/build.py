@@ -20,11 +20,11 @@ lst={"type":"list","start":round(w[36][0]-PRE,3),"end":round(w[54][0]-PRE-0.04,3
 devices=[cnt,lst]
 INS=json.load(open("ins_stack.json"))
 insert={"start":INS["open"]-0.05,"end":INS["end"],"hide":INS["open"],"drop_to":27.0}
-N={"appear":5.15,"stretch":5.40,"split":5.70,"dr":5.95,"marwa":6.25,"magdy":6.55,"title":6.85,"exit":9.80}
+N={"appear":6.18,"stretch":6.40,"split":6.65,"dr":6.85,"marwa":7.10,"magdy":7.35,"title":7.60,"exit":9.80}
 cuts=[0,6.08,7.6,11.92,14.22,17.28,20.16,23.72,25.4,27.1,32.16]; lap=[1000,1000,1180,1000,1000,1150,1000,1160,1000,1020]
 END={"start":31.10,"close":31.90,"dur":32.16}
 MINHOLD=0.35
-data={"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":1390}
+data={"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":175}
 json.dump(data,open("data.json","w"),ensure_ascii=False)
 PK=json.load(open("/home/user/claude/sfx_library/saber_v2/peaks.json"))
 def sfx(f,t,seg=None): return f"{f}@{t:.2f}@{PK[f] if not seg else seg[2]}"+(f"@{seg[0]}@{seg[1]}" if seg else "")

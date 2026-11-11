@@ -1,5 +1,5 @@
-soft reveal/1.MP3@5.70@0.53
-pop/2.MP3@6.55@0.05
+soft reveal/1.MP3@6.65@0.53
+pop/2.MP3@7.35@0.05
 Hint , notification/simble notification.MP3@6.28@0.26
 pop/1.mp4@7.50@0.09
 Hint , notification/solid.MP3@8.86@0.055
