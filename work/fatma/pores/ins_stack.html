@@ -55,7 +55,7 @@ function curPos(t){ let x=D.cin[0], y=D.cin[1];
   for(let i=1;i<keys.length;i++){ const s=spr(t-keys[i][0],.38); x+=(keys[i][1]-keys[i-1][1])*s; y+=(keys[i][2]-keys[i-1][2])*s; } return {x,y}; }
 function seek(t){
   const hv=(t<O-0.04||t>D.end)?'hidden':'visible'; $('cam').style.visibility=hv;
-  const u=Math.max(0,Math.min(t,C)-O); $('cam').style.transform=`translate(${(4*Math.sin(u*.7)).toFixed(2)}px,${(5*Math.sin(u*.9)).toFixed(2)}px) scale(${(1+0.004*u).toFixed(4)})`;
+  const u=Math.max(0,Math.min(t,C)-O); $('cam').style.transform=`translate(${(D.dx+4*Math.sin(u*.7)).toFixed(2)}px,${(D.dy+5*Math.sin(u*.9)).toFixed(2)}px) scale(${(D.sc*(1+0.004*u)).toFixed(4)})`;
   const k=spx(t-C,.34), top=stackTop(t);
   IT.forEach((o,i)=>{ const e=o.e, ta=o.t-pre;
     // each item grows from a point (width then height), content arrives with a short blur

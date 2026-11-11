@@ -1,17 +1,17 @@
 soft reveal/1.MP3@0.68@0.53
 pop/2.MP3@1.86@0.05
 Hint , notification/simble notification.MP3@6.28@0.26
-pop/1.mp4@7.66@0.09
+pop/1.mp4@7.50@0.09
 Hint , notification/solid.MP3@8.86@0.055
 Hint , notification/info.MP3@12.28@0.125
-paper.MP3@12.86@0.275
-pop/3.MP3@14.68@0.06
-pop/4.MP3@18.20@0.065
+paper.MP3@12.64@0.275
+pop/3.MP3@14.20@0.06
+pop/4.MP3@17.26@0.065
 whoosh/big.MP3@22.75@0.56
 mouse click 1.MP3@23.22@0.115
 photo insert.MP3@23.68@0.075
 keaboard.MP3@24.46@0.05@0.0@0.75
 Hint , notification/1.mp4@25.42@0.09
 correct answer.MP3@25.95@0.09
-whoosh/light .MP3@28.09@0.56
+whoosh/light .MP3@26.98@0.56
 اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3@31.90@0.795

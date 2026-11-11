@@ -29,3 +29,5 @@ pores/*.mp4
 pores/*.f32
 pores/dbg.png
 pores/last.png
+pores/si_*.png
+pores/pre*.png
