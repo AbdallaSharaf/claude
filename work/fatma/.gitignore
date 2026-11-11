@@ -1,0 +1,8 @@
+lip.mp4
+pores.mp4
+collagen.mp4
+*.wav
+sample/fr/
+sample/*.mp4
+sample/*.png
+!sample/color_options.png
