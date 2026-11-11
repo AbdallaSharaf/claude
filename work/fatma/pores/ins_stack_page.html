@@ -38,7 +38,7 @@ html,body{margin:0;background:transparent}
 <svg id="cur" viewBox="0 0 52 64"><path d="M5 5 L5 50 L16 39 L24 57 L32 54 L24 36 L41 36 Z" fill="#2A0E13" stroke="#FAF2EC" stroke-width="3" stroke-linejoin="round"/></svg>
 </div></div>
 <script>
-const D={"open": 23.0, "close": 28.06, "end": 28.81, "cy": 900, "h": 150, "y0": 1040, "y1": 1060, "items": [{"t": 23.1, "w": 660, "r": 75, "click": 23.28}, {"t": 23.68, "w": 640, "r": 75}, {"t": 24.46, "w": 880, "r": 40, "word": "Fractional Laser"}, {"t": 25.42, "w": 620, "r": 40}, {"t": 25.95, "w": 860, "r": 40}], "check0": 23.6, "typ": 0.7, "clicks": [[23.200000000000003, 23.28], [23.78, 23.86], [24.560000000000002, 24.64], [25.520000000000003, 25.6], [26.05, 26.13]], "cin": [1180, 1500]}, pre=3/25;
+const D={"open": 22.7, "close": 28.06, "end": 28.81, "cy": 900, "h": 150, "y0": 1040, "y1": 1060, "items": [{"t": 23.1, "w": 660, "r": 75, "click": 23.28}, {"t": 23.68, "w": 640, "r": 75}, {"t": 24.46, "w": 880, "r": 40, "word": "Fractional Laser"}, {"t": 25.42, "w": 620, "r": 40}, {"t": 25.95, "w": 860, "r": 40}], "check0": 23.6, "typ": 0.7, "clicks": [[23.200000000000003, 23.28], [23.78, 23.86], [24.560000000000002, 24.64], [25.520000000000003, 25.6], [26.05, 26.13]], "cin": [1180, 1500]}, pre=3/25;
 function spr(t,Ts){ if(t<=0) return 0; const z=0.82,w=4/(z*Ts),wd=w*Math.sqrt(1-z*z); return 1-Math.exp(-z*w*t)*(Math.cos(wd*t)+(z*w/wd)*Math.sin(wd*t)); }
 function spx(t,Ts){ if(t<=0) return 0; const w=5.8/Ts; return 1-(1+w*t)*Math.exp(-w*t); }
 const cl=(x,a,b)=>Math.max(a,Math.min(b,x)), $=id=>document.getElementById(id);
