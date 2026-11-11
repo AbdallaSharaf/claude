@@ -6,3 +6,4 @@ sample/fr/
 sample/*.mp4
 sample/*.png
 !sample/color_options.png
+fonts
