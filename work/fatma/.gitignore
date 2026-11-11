@@ -27,3 +27,5 @@ pores/fr/
 pores/so_*.png
 pores/*.mp4
 pores/*.f32
+pores/dbg.png
+pores/last.png
