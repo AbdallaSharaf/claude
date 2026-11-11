@@ -1,6 +1,6 @@
 import json
 d=json.load(open("data.json"))
-h=open("/home/user/claude/.claude/skills/montage/templates/reel_overlay.html").read().replace(">MARWA<",">FATMA<").replace(">MAGDY<",">TOURKY<").replace("NM,300,150,{})","NM,222,150,{})")
+h=open("/home/user/claude/.claude/skills/montage/templates/reel_overlay.html").read().replace(">MARWA<",">FATMA<").replace(">MAGDY<",">TOURKY<").replace("NM,300,150,{})","NM,D.nameY-ly,D.nameY-ly,{})")
 rep=[("(t>D.insert.start+0.45 && t<D.insert.end)","(t>(D.insert.hide??D.insert.start+0.45) && t<D.insert.end)"),
  ("c[0].t<D.insert.end-0.6","c[0].t<(D.insert.drop_to??D.insert.end-0.6)"),
  ('<path id="mask" fill="#2E1A0D"','<path id="mask" fill="#B4525E"'),('<circle id="ering" fill="none" stroke="#F0C98A"','<circle id="ering" fill="none" stroke="#F7EDE2"'),('<circle id="edot" fill="#F0C98A"','<circle id="edot" fill="#F7EDE2"'),
