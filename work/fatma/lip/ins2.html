@@ -1,0 +1,120 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:G7;src:url(../fonts/Geist700.woff2)}
+@font-face{font-family:P7;src:url(../fonts/IBMPA700.ttf)}
+@font-face{font-family:P5;src:url(../fonts/IBMPA500.ttf)}
+html,body{margin:0;background:transparent}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden}
+#veil{position:absolute;inset:0;background:rgb(247,237,226)}
+#cam{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 900px}
+#shape{position:absolute;background:rgba(247,237,226,.62);border:2px solid rgba(235,213,140,.85);box-sizing:border-box;box-shadow:0 22px 50px rgba(90,25,35,.20)}
+.g{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.line{position:absolute;left:0;width:1080px;display:flex;justify-content:center;direction:rtl;gap:16px;white-space:nowrap}
+.wd{display:inline-block}
+.ar7{font:58px/1.2 P7;color:#7E2A36}
+.ar5{font:46px/1.2 P5;color:#7E2A36}
+.en{font:76px/1.1 G7;color:#B4525E;letter-spacing:-.01em}
+.en2{font:64px/1.1 G7;color:#B4525E;letter-spacing:-.01em}
+.trk{position:absolute;border-radius:7px}
+.knob{position:absolute;border-radius:50%;background:rgba(247,237,226,.96);box-shadow:0 4px 12px rgba(90,25,35,.25)}
+.seg{position:absolute;background:rgba(126,42,54,.10);border-radius:55px}
+.ind{position:absolute;background:rgba(180,82,94,.38);border-radius:46px}
+.tab{position:absolute;font:48px/1 P7;color:#7E2A36;text-align:center;white-space:nowrap}
+#cur{position:absolute;left:0;top:0;width:46px;height:56px;transform-origin:4px 4px;filter:drop-shadow(0 4px 6px rgba(90,25,35,.30))}
+</style></head><body><div id="st"><div id="veil"></div><div id="cam">
+<div id="shape"></div>
+<div class="g" id="g1"><div class="line ar7" id="l1"></div></div>
+<div class="g" id="g2"><div class="line en" id="l2"></div></div>
+<div class="g" id="g3"><div class="line ar5" id="l3"></div></div>
+<div class="g" id="g4"><div class="trk" id="tbg"></div><div class="trk" id="tr"></div><div class="trk" id="tl"></div><div class="knob" id="hd"></div></div>
+<div class="g" id="g5"><div class="line" id="l5"></div><div class="trk" id="tgt" style="border-radius:42px"></div><div class="knob" id="tgk" style="border-radius:35px"></div></div>
+<div class="g" id="g6"><div class="line ar7" id="l6"></div><div class="seg" id="seg"></div><div class="ind" id="ind"></div>
+ <div class="tab" id="tA"></div><div class="tab" id="tO" style="font:38px/1 P5"></div><div class="tab" id="tB"></div></div>
+<svg id="cur" viewBox="0 0 46 56"><path d="M4 4 L4 44 L14 34 L21 50 L28 47 L21 31 L36 31 Z" fill="#F7EDE2" stroke="#7E2A36" stroke-width="2.5" stroke-linejoin="round"/></svg>
+</div></div>
+<script>
+const D=DATA, pre=3/25;
+function spr(t,Ts){ if(t<=0) return 0; const z=0.82,w=4/(z*Ts),wd=w*Math.sqrt(1-z*z); return 1-Math.exp(-z*w*t)*(Math.cos(wd*t)+(z*w/wd)*Math.sin(wd*t)); }
+function spx(t,Ts){ if(t<=0) return 0; const w=5.8/Ts; return 1-(1+w*t)*Math.exp(-w*t); }
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x)), $=id=>document.getElementById(id);
+// a value that changes target many times = sum of one spring per change (pure function of time)
+function trk(K,t,Ts,crit){ let v=K[0][1]; for(let i=1;i<K.length;i++){ const s=crit?spx(t-K[i][0],K[i][2]||Ts):spr(t-K[i][0],K[i][2]||Ts); v+=(K[i][1]-K[i-1][1])*s; } return v; }
+const O=D.open, C=D.close, CY=880;
+// ---------- the one shape: center, size, radius per state ----------
+const SX=[[0,540],[O,540]], SY=[[0,D.y0],[O+0.02,CY],[C,D.y1,.35]];
+const SW=[[0,20],[O+0.02,840],[D.T.card,880],[D.T.toggle,780],[D.T.tabs,880],[C,20,.32]];
+const SH=[[0,20],[O+0.02,160],[D.T.card,300],[D.T.slider,470],[D.T.toggle,190],[D.T.tabs,430],[C,20,.32]];
+const SR=[[0,10],[O+0.02,80],[D.T.card,60],[D.T.toggle,95],[D.T.tabs,60],[C,10,.32]];
+// ---------- words ----------
+function words(el,list,cls){ return list.map(o=>{ const s=document.createElement('span'); s.className='wd'+(cls?' '+cls:''); s.textContent=o.w; el.appendChild(s); return {el:s,t:o.t}; }); }
+const W1=words($('l1'),D.w1), W2=words($('l2'),D.w2), W3=words($('l3'),D.w3), W6=words($('l6'),D.w6);
+const W5=words($('l5'),D.w5.map(o=>({w:o.w,t:o.t}))); W5.forEach((o,i)=>o.el.className='wd '+(D.w5[i].en?'en2':'ar7'));
+$('tA').textContent=D.tabA.w; $('tO').textContent=D.tabO.w; $('tB').textContent=D.tabB.w;
+const floorT=(o)=>Math.max(o.t,O+0.28);
+function rise(L,t){ L.forEach(o=>{ const a=cl(spr(t-(floorT(o)-pre),.28),0,1.05); o.el.style.transform=`translateY(${((1-a)*26).toFixed(1)}px)`; o.el.style.opacity=cl(a,0,1).toFixed(3); o.el.style.filter=`blur(${(Math.max(0,1-a)*6).toFixed(2)}px)`; }); }
+// content group: own enter/exit timing, swaps with a short blur (never overlaps the next one)
+function grp(id,te,tx,t){ const a=cl(spr(t-te,.22),0,1), x=cl(spx(t-tx,.16),0,1), e=$(id), op=a*(1-x);
+  e.style.opacity=op.toFixed(3); e.style.filter=`blur(${((1-a)*8+x*8).toFixed(2)}px)`; e.style.visibility=op>0.002?'visible':'hidden'; return op>0.002; }
+// ---------- cursor: path = sum of springs; press list; drag = direct manipulation ----------
+function cur(t){ return {x:trk(D.cx,t,.38), y:trk(D.cy,t,.38)}; }
+const held=(t,a,b)=>t>=a&&t<=b;
+function press(t){ let p=0; D.clicks.forEach(([a,b])=>{ p+=spr(t-a,.10)-spr(t-b,.14); }); return cl(p,0,1); }
+function setBox(e,x,y,w,h){ e.style.left=x.toFixed(1)+'px'; e.style.top=y.toFixed(1)+'px'; e.style.width=Math.max(0,w).toFixed(1)+'px'; e.style.height=Math.max(0,h).toFixed(1)+'px'; }
+function veil(t){ return spr(t-O,.35)*(1-spx(t-C,.42)); }
+window.blurAmt=t=>veil(t);
+function seek(t){
+  const v=veil(t); $('veil').style.opacity=(0.30*v).toFixed(3); {const hv=(t<O-0.04||t>D.end)?'hidden':'visible'; $('cam').style.visibility=hv; $('veil').style.visibility=hv;}
+  const u=Math.max(0,Math.min(t,C)-O); $('cam').style.transform=`translate(${(4*Math.sin(u*.7)).toFixed(2)}px,${(5*Math.sin(u*.9)).toFixed(2)}px) scale(${(1+0.004*u).toFixed(4)})`;  // never parked
+  const cx=trk(SX,t,.45), cy=C<t?trk(SY,t,.45,false):trk(SY,t,.45);
+  let w=trk(SW,t,.42), h=trk(SH,t,.42), r=trk(SR,t,.42);
+  if(t>C){ const k=spx(t-C,.32); w=880*(1-k)+20*k; }  // collapse: critically damped, never reopens
+  w=t>C?trk(SW.slice(0,-1),t,.42)*(1-spx(t-C,.32))+20*spx(t-C,.32):w;
+  h=t>C?trk(SH.slice(0,-1),t,.42)*(1-spx(t-C,.32))+20*spx(t-C,.32):h;
+  r=Math.min(r,h/2,w/2);
+  const ycol=t>C? CY+(D.y1-CY)*spx(t-(C+.12),.32): (t<O+0.02? D.y0 : D.y0+(CY-D.y0)*spr(t-(O+0.02),.45));
+  const pz=1-0.015*press(t); const S=$('shape');
+  setBox(S,540-w*pz/2,ycol-h*pz/2,w*pz,h*pz); S.style.borderRadius=r.toFixed(1)+'px';
+  S.style.opacity=(t>C+0.45? Math.max(0,1-(t-C-0.45)/0.15):1).toFixed(3);
+  const Y=ycol;
+  // 1) pill: في حالات كتيرة جدًا
+  if(grp('g1',O+0.05,D.T.card-0.06,t)){ $('l1').style.top=(Y-36)+'px'; rise(W1,t); }
+  // 2) title Lip Asymmetry (moves up when the slider opens)
+  if(grp('g2',D.T.card+0.04,D.T.toggle-0.06,t)){ const up=spr(t-D.T.slider,.4); $('l2').style.top=(Y-44-150*up)+'px'; rise(W2,t); }
+  // 3) أو عدم تماثل الشفايف
+  if(grp('g3',D.T.slider-0.1,D.T.toggle-0.06,t)){ $('l3').style.top=(Y-40)+'px'; rise(W3,t); }
+  // 4) slider: two uneven halves, dragged until they are equal
+  if(grp('g4',D.T.slider+0.02,D.T.toggle-0.06,t)){
+    const ty=Y+120, L0=540-320, R0=540+320, c=cur(t); const [dn,up]=D.drag;
+    let hx; if(t<dn) hx=D.hx0; else if(t<=up) hx=cl(c.x,L0+40,R0-40); else { const rel=cl(cur(up).x,L0+40,R0-40); hx=rel+(540-rel)*spr(t-up,.3); }
+    setBox($('tbg'),L0,ty-7,R0-L0,14); $('tbg').style.background='rgba(126,42,54,.12)';
+    setBox($('tr'),hx+8,ty-7,R0-hx-8,14); $('tr').style.background='rgba(180,82,94,.55)';
+    setBox($('tl'),L0,ty-7,hx-8-L0,14); $('tl').style.background='rgba(214,170,90,.55)';
+    const hs=56*(1+0.08*press(t)); setBox($('hd'),hx-hs/2,ty-hs/2,hs,hs); }
+  // 5) toggle: أو Gummy Smile — knob edges ride different springs (leading edge stretches ahead)
+  if(grp('g5',D.T.toggle+0.04,D.T.tabs-0.04,t)){
+    const left=540-390+34, ty=Y; $('l5').style.top=(Y-42)+'px'; $('l5').style.paddingLeft='170px'; $('l5').style.boxSizing='border-box'; rise(W5,t);
+    const tw=150, th=84, tx=left; const on=D.flip;
+    const a=spr(t-on,.20), b=spr(t-on,.34);  // leading (right) edge fast, trailing slow
+    const k0=tx+7, k1=tx+tw-7-70; const rgt=k0+70+(k1-k0)*a, lft=k0+(k1-k0)*b;
+    setBox($('tgt'),tx,ty-th/2,tw,th); $('tgt').style.background=`rgba(180,82,94,${(0.14+0.42*cl(a,0,1)).toFixed(3)})`;
+    setBox($('tgk'),lft,ty-35,rgt-lft,70); }
+  // 6) tabs: the knob becomes a liquid indicator
+  if(grp('g6',D.T.tabs+0.04,C-0.02,t)){
+    $('l6').style.top=(Y-150)+'px'; rise(W6,t);
+    const sy=Y+70, sw=720, sh=110; setBox($('seg'),540-sw/2,sy-sh/2,sw,sh);
+    const tabW=300, rA=540+sw/2-10, lA=rA-tabW, rB=540-sw/2+10+tabW, lB=540-sw/2+10;
+    // targets: knob spot -> small neutral pill in the middle -> tab A (click) -> tab B (click)
+    const knobL=257, knobR=327;
+    const KL=[[0,knobL],[D.T.tabs,540-55],[D.clickA,lA],[D.clickB,lB]], KR=[[0,knobR],[D.T.tabs,540+55],[D.clickA,rA],[D.clickB,rB]];
+    const L=[[0,KL[0][1]]], R=[[0,KR[0][1]]];
+    // moving left: left edge leads (fast), right edge trails (slow); moving right: the opposite
+    let l=KL[0][1], rr=KR[0][1];
+    for(let i=1;i<KL.length;i++){ const toLeft=KL[i][1]<KL[i-1][1]; l+=(KL[i][1]-KL[i-1][1])*spr(t-KL[i][0],toLeft?.20:.34); rr+=(KR[i][1]-KR[i-1][1])*spr(t-KR[i][0],toLeft?.34:.20); }
+    const ih=90; setBox($('ind'),l,sy-ih/2,rr-l,ih);
+    const tab=(id,o,x0,x1)=>{ const e=$(id), a=cl(spr(t-(Math.max(o.t,D.T.tabs+0.2)-pre),.28),0,1); e.style.left=x0+'px'; e.style.width=(x1-x0)+'px'; e.style.top=(sy-26)+'px'; e.style.opacity=a; e.style.transform=`translateY(${((1-a)*20).toFixed(1)}px)`; e.style.filter=`blur(${((1-a)*5).toFixed(2)}px)`; };
+    tab('tA',D.tabA,lA,rA); tab('tB',D.tabB,lB,rB); tab('tO',D.tabO,540-60,540+60); }
+  // cursor
+  const c=cur(t), cv=t>D.curIn&&t<D.curOut; const cu=$('cur'); cu.style.visibility=cv?'visible':'hidden';
+  cu.style.transform=`translate(${(c.x-4).toFixed(1)}px,${(c.y-4).toFixed(1)}px) scale(${(1-0.14*press(t)).toFixed(3)})`;
+}
+window.seek=seek;
+</script></body></html>
