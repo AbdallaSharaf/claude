@@ -1,6 +1,6 @@
 import numpy as np,subprocess,math,os
-from PIL import Image,ImageFilter
-O,C=23.0,27.62; a,b=550,725; W,H=1080,1920
+from PIL import Image,ImageFilter,ImageEnhance
+O,C=23.0,27.66; a,b=550,725; W,H=1080,1920
 def spr(t,Ts):
     if t<=0: return 0
     z=0.82;w=4/(z*Ts);wd=w*math.sqrt(1-z*z); return 1-math.exp(-z*w*t)*(math.cos(wd*t)+(z*w/wd)*math.sin(wd*t))
@@ -12,8 +12,10 @@ enc=subprocess.Popen(["ffmpeg","-v","error","-y","-f","rawvideo","-pix_fmt","rgb
 for i in range(a,b):
     fr=np.frombuffer(dec.stdout.read(W*H*3),np.uint8).reshape(H,W,3); t=i/25
     im=Image.fromarray(fr); v=max(0,min(1,spr(t-O,.35)*(1-spx(t-C,.42))))
-    if v>0.01: im=im.filter(ImageFilter.GaussianBlur(14*v))
-    im=im.convert("RGBA"); f=f"fi/f{i:04d}.png"
+    if v>0.01: im=ImageEnhance.Color(im.filter(ImageFilter.GaussianBlur(14*v))).enhance(1+0.12*v)
+    im=im.convert("RGBA")
+    if v>0.01: im.alpha_composite(Image.new("RGBA",im.size,(58,18,25,int(46*v))))
+    f=f"fi/f{i:04d}.png"
     if os.path.exists(f): im.alpha_composite(Image.open(f).convert("RGBA"))
     enc.stdin.write(im.convert("RGB").tobytes())
 enc.stdin.close(); enc.wait()
