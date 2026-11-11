@@ -41,7 +41,7 @@ const veil=t=>spr(t-O,.35)*(1-spx(t-C,.42));
 const PAD=40, TH=D.card.title?110:0, RH=112, CW=D.card.w||880;
 const hKeys=[[0,20],[O+0.02,160]]; const wKeys=[[0,20],[O+0.02,D.pill.w||840]]; const rKeys=[[0,10],[O+0.02,80]];
 hKeys.push([D.card.t,2*PAD+TH+RH]); wKeys.push([D.card.t,CW]); rKeys.push([D.card.t,56]);
-RW.forEach((r,i)=>{ if(i) hKeys.push([r.t-pre,2*PAD+TH+(i+1)*RH]); });
+RW.forEach((r,i)=>{ if(i) hKeys.push([r.t-pre-0.22,2*PAD+TH+(i+1)*RH]); });
 function seek(t){
   const hv=(t<O-0.04||t>D.end)?'hidden':'visible'; $('cam').style.visibility=hv; $('veil').style.visibility=hv;
   const v=veil(t); $('veil').style.opacity=(0.30*v).toFixed(3);

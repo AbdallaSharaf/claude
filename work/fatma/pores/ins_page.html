@@ -1,0 +1,72 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:G7;src:url(fonts/Geist700.woff2)}
+@font-face{font-family:P7;src:url(fonts/IBMPA700.ttf)}
+@font-face{font-family:P5;src:url(fonts/IBMPA500.ttf)}
+html,body{margin:0;background:transparent}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden}
+#veil{position:absolute;inset:0;background:rgb(247,237,226)}
+#cam{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 900px}
+#shape{position:absolute;background:rgba(247,237,226,.76);border:2px solid rgba(235,213,140,.85);box-sizing:border-box;box-shadow:0 22px 50px rgba(90,25,35,.20)}
+.g{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.line{position:absolute;left:0;width:1080px;display:flex;justify-content:center;align-items:baseline;direction:rtl;gap:16px;white-space:nowrap}
+.wd{display:inline-block}
+.ar{font:60px/1.25 P7;color:#7E2A36}
+.en{font:64px/1.25 G7;color:#B4525E;letter-spacing:-.01em}
+.ind{position:absolute;background:rgba(180,82,94,.30);border-radius:30px}
+.ring{position:absolute;width:76px;height:76px;border:3px solid #B4525E;border-radius:50%;box-sizing:border-box;font:40px/70px P7;color:#B4525E;text-align:center}
+#cur{position:absolute;left:0;top:0;width:46px;height:56px;transform-origin:4px 4px;filter:drop-shadow(0 4px 6px rgba(90,25,35,.30))}
+</style></head><body><div id="st"><div id="veil"></div><div id="cam">
+<div id="shape"></div><div class="g" id="gp"><div class="line" id="lp"></div><div class="ring" id="ring"></div></div>
+<div class="g" id="gc"><div class="ind" id="ind"></div><div class="line" id="lt"></div></div>
+<svg id="cur" viewBox="0 0 46 56"><path d="M4 4 L4 44 L14 34 L21 50 L28 47 L21 31 L36 31 Z" fill="#F7EDE2" stroke="#7E2A36" stroke-width="2.5" stroke-linejoin="round"/></svg>
+</div></div>
+<script>
+const D={"open": 23.0, "close": 27.62, "end": 28.37, "cy": 880, "y0": 1040, "y1": 1060, "pill": {"words": []}, "card": {"t": 23.05, "rows": [{"words": [{"w": "Skin Boosters", "t": 23.3}], "click": 23.38}, {"words": [{"w": "Mesobotox", "t": 23.68}], "click": 23.76}, {"words": [{"w": "Fractional Laser", "t": 24.46}], "click": 24.54}, {"words": [{"w": "Dermapen", "t": 25.42}], "click": 25.5}, {"words": [{"w": "و Microneedling RF", "t": 26.02}], "click": 26.1}], "w": 880}, "clicks": [[23.349999999999998, 23.43], [23.73, 23.810000000000002], [24.509999999999998, 24.59], [25.47, 25.55], [26.07, 26.150000000000002]], "cx": [[0, 1180], [23.0, 800], [22.959999999999997, 820], [23.34, 820], [24.119999999999997, 820], [25.08, 820], [25.68, 820], [27.12, 1180]], "cy2": [[0, 1500], [23.0, 880], [22.959999999999997, 890.0], [23.34, 946.0], [24.119999999999997, 1002.0], [25.08, 1058.0], [25.68, 1114.0], [27.12, 1500]], "curIn": 23.05, "curOut": 27.52}, pre=3/25;
+function spr(t,Ts){ if(t<=0) return 0; const z=0.82,w=4/(z*Ts),wd=w*Math.sqrt(1-z*z); return 1-Math.exp(-z*w*t)*(Math.cos(wd*t)+(z*w/wd)*Math.sin(wd*t)); }
+function spx(t,Ts){ if(t<=0) return 0; const w=5.8/Ts; return 1-(1+w*t)*Math.exp(-w*t); }
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x)), $=id=>document.getElementById(id);
+function trk(K,t,Ts){ let v=K[0][1]; for(let i=1;i<K.length;i++) v+=(K[i][1]-K[i-1][1])*spr(t-K[i][0],K[i][2]||Ts); return v; }
+const O=D.open, C=D.close, CY=D.cy||880, LAT=/[A-Za-z]/;
+function words(el,list){ return list.map(o=>{ const s=document.createElement('span'); s.className='wd '+(LAT.test(o.w)?'en':'ar'); s.textContent=o.w; el.appendChild(s); return {el:s,t:o.t}; }); }
+const WP=words($('lp'),D.pill.words), WT=D.card.title?words($('lt'),D.card.title):[];
+const RW=D.card.rows.map(r=>{ const d=document.createElement('div'); d.className='line'; $('gc').appendChild(d); return {el:d,ws:words(d,r.words),t:r.words[0].t,click:r.click}; });
+if(D.pill.num) $('ring').textContent=D.pill.num; else $('ring').style.display='none';
+const floorT=o=>Math.max(o.t,O+0.28);
+function rise(L,t){ L.forEach(o=>{ const a=cl(spr(t-(floorT(o)-pre),.28),0,1.05); o.el.style.transform=`translateY(${((1-a)*26).toFixed(1)}px)`; o.el.style.opacity=cl(a,0,1).toFixed(3); o.el.style.filter=`blur(${(Math.max(0,1-a)*6).toFixed(2)}px)`; }); }
+function grp(id,te,tx,t){ const a=cl(spr(t-te,.22),0,1), x=cl(spx(t-tx,.16),0,1), e=$(id), op=a*(1-x); e.style.opacity=op.toFixed(3); e.style.filter=`blur(${((1-a)*8+x*8).toFixed(2)}px)`; e.style.visibility=op>0.002?'visible':'hidden'; return op>0.002; }
+function press(t){ let p=0; D.clicks.forEach(([a,b])=>{ p+=spr(t-a,.10)-spr(t-b,.14); }); return cl(p,0,1); }
+function setBox(e,x,y,w,h){ e.style.left=x.toFixed(1)+'px'; e.style.top=y.toFixed(1)+'px'; e.style.width=Math.max(0,w).toFixed(1)+'px'; e.style.height=Math.max(0,h).toFixed(1)+'px'; }
+const veil=t=>spr(t-O,.35)*(1-spx(t-C,.42));
+// layout: card = title row + one row per item; the card grows as rows arrive (list builds)
+const PAD=40, TH=D.card.title?110:0, RH=112, CW=D.card.w||880;
+const hKeys=[[0,20],[O+0.02,160]]; const wKeys=[[0,20],[O+0.02,D.pill.w||840]]; const rKeys=[[0,10],[O+0.02,80]];
+hKeys.push([D.card.t,2*PAD+TH+RH]); wKeys.push([D.card.t,CW]); rKeys.push([D.card.t,56]);
+RW.forEach((r,i)=>{ if(i) hKeys.push([r.t-pre-0.22,2*PAD+TH+(i+1)*RH]); });
+function seek(t){
+  const hv=(t<O-0.04||t>D.end)?'hidden':'visible'; $('cam').style.visibility=hv; $('veil').style.visibility=hv;
+  const v=veil(t); $('veil').style.opacity=(0.30*v).toFixed(3);
+  const u=Math.max(0,Math.min(t,C)-O); $('cam').style.transform=`translate(${(4*Math.sin(u*.7)).toFixed(2)}px,${(5*Math.sin(u*.9)).toFixed(2)}px) scale(${(1+0.004*u).toFixed(4)})`;
+  const k=spx(t-C,.32);
+  let w=trk(wKeys,t,.42)*(1-k)+20*k, h=trk(hKeys,t,.40)*(1-k)+20*k, r=Math.min(trk(rKeys,t,.42),h/2,w/2);
+  const y=t>C? CY+(D.y1-CY)*spx(t-(C+.12),.32) : (t<O+0.02? D.y0 : D.y0+(CY-D.y0)*spr(t-(O+0.02),.45));
+  const pz=1-0.015*press(t), S=$('shape'); setBox(S,540-w*pz/2,y-h*pz/2,w*pz,h*pz); S.style.borderRadius=r.toFixed(1)+'px';
+  S.style.opacity=(t>C+0.45? Math.max(0,1-(t-C-0.45)/0.15):1).toFixed(3);
+  const top=y-h/2;
+  if(grp('gp',O+0.05,D.card.t-0.06,t)){ $('lp').style.top=(y-40)+'px'; rise(WP,t);
+    if(D.pill.num){ const pw=$('lp').firstChild?0:0; const rr=$('ring'); const ww=D.pill.w||840; rr.style.left=(540+ww/2-34-76)+'px'; rr.style.top=(y-38)+'px'; } }
+  if(grp('gc',D.card.t+0.04,C-0.02,t)){
+    if(WT.length){ $('lt').style.top=(top+PAD+8)+'px'; rise(WT,t); }
+    RW.forEach((r,i)=>{ r.el.style.top=(top+PAD+TH+i*RH+18)+'px'; rise(r.ws,t); });
+    // liquid indicator: two edges on different springs (leading edge ahead of the trailing one)
+    const sel=RW.map((r,i)=>[r.click,i]).filter(x=>x[0]!=null);
+    if(sel.length && t>sel[0][0]-0.05){ let a=sel[0][1], tt=top+PAD+TH+a*RH+6, bb=tt+RH-12, x0=540-CW/2+28;
+      for(let j=1;j<sel.length;j++){ const d=sel[j][1]-sel[j-1][1], down=d>0; tt+=d*RH*spr(t-sel[j][0],down?.34:.20); bb+=d*RH*spr(t-sel[j][0],down?.20:.34); }
+      const ap=cl(spr(t-sel[0][0],.22),0,1); const ind=$('ind'); setBox(ind,x0+(CW/2-28)*(1-ap),tt,(CW-56)*ap,bb-tt); ind.style.visibility='visible'; }
+    else $('ind').style.visibility='hidden'; }
+  const cx=trk(D.cx,t,.38), cy=trk(D.cy2,t,.38), cu=$('cur'); cu.style.visibility=(t>D.curIn&&t<D.curOut)?'visible':'hidden';
+  cu.style.transform=`translate(${(cx-4).toFixed(1)}px,${(cy-4).toFixed(1)}px) scale(${(1-0.14*press(t)).toFixed(3)})`;
+}
+window.seek=seek;
+// row centers for the cursor (filled by the build script from the same layout)
+window.rowY=(i,nRows)=>{ const h=2*PAD+TH+nRows*RH; return CY-h/2+PAD+TH+i*RH+RH/2; };
+</script></body></html>
