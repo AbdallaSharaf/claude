@@ -40,3 +40,11 @@ collagen/*.f32
 collagen/so_*.png
 collagen/si_*.png
 collagen/pre*.png
+lip2/fr/
+lip2/fi/
+lip2/fonts
+lip2/*.mp4
+lip2/*.f32
+lip2/so_*.png
+lip2/si_*.png
+lip2/pre*.png
