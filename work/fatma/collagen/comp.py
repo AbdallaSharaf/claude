@@ -1,6 +1,6 @@
 import numpy as np,subprocess,math,sys,os
 from PIL import Image,ImageFilter,ImageEnhance
-src,out=sys.argv[1],sys.argv[2]; N=886; fps=25; W,H=1080,1920; O,C=16.98,24.25
+src,out=sys.argv[1],sys.argv[2]; N=886; fps=25; W,H=1080,1920; O,C=16.98,24.95
 def spr(t,Ts):
     if t<=0: return 0
     z=0.82;w=4/(z*Ts);wd=w*math.sqrt(1-z*z); return 1-math.exp(-z*w*t)*(math.cos(wd*t)+(z*w/wd)*math.sin(wd*t))

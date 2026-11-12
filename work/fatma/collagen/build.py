@@ -8,7 +8,7 @@ GOLD={9,10,11,15,25,27,33,47,49,58,63,71,77,81,89,93,95}
 def W(i,g=None): return {"w":w[i][2],"t":w[i][0],"e":w[i][1],"g":(i in GOLD) if g is None else g}
 def rows(bl): return [[dict(W(i),r=ri) for ri,(a,b) in enumerate(bl) for i in range(a,b)]]
 chunks=[]
-for bl in [[(0,2),(2,5)],[(5,8),(8,12)],[(12,15),(15,17)],[(83,85),(85,89)],[(89,92),(92,97)]]: chunks+=rows(bl)
+for bl in [[(0,2),(2,5)],[(5,8),(8,11),(11,12)],[(12,15),(15,17)],[(83,85),(85,89)],[(89,92),(92,95),(95,97)]]: chunks+=rows(bl)
 def lst(title,rws,num,end_word):
     return {"type":"list","start":round(w[title[0]][0]-PRE,3),"end":round(w[end_word][0]-PRE-0.04,3),"top":1000,"num":num,
             "lines":[[W(i) for i in range(*title)]]+[[W(i) for i in range(a,b)] for a,b in rws]}
@@ -19,8 +19,8 @@ hands["start"]=round(w[74][0]-PRE,3)
 neck["end"]=16.95
 # belly insert (UI stack)
 o=lambda i:{"w":w[i][2],"t":w[i][0]}
-O=16.98; C=24.25
-INS={"open":O,"close":C,"end":round(C+0.55,2),"cy":900,"sc":0.66,"dx":50,"dy":310,"y0":round(900+(1040-310-900)/0.66),"y1":round(900+(1040-310-900)/0.66),
+O=16.98; C=24.95
+INS={"open":O,"close":C,"end":round(C+0.32,2),"ck":0.2,"cy1":0.18,"fa":0.2,"fb":0.3,"cy":900,"sc":0.66,"dx":50,"dy":310,"y0":round(900+(1040-310-900)/0.66),"y1":round(900+(1040-310-900)/0.66),
  "items":[{"icon":"num","num":"٣","lines":[[o(51),o(52)]],"r":40},
           {"icon":"check","dark":True,"lines":[[o(53),o(54),o(55)]],"r":75},
           {"icon":"mag","search":True,"lines":[[o(i) for i in range(56,61)]],"key":"⌘K","r":40},
@@ -29,7 +29,7 @@ INS={"open":O,"close":C,"end":round(C+0.55,2),"cy":900,"sc":0.66,"dx":50,"dy":31
 json.dump(INS,open("ins.json","w"),ensure_ascii=False)
 open("ins_page.html","w").write(open("../ins_items.html").read().replace("DATA",json.dumps(INS,ensure_ascii=False)))
 devices=[face,neck,hands]
-insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":24.5}
+insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":24.9}
 N={"appear":5.35,"stretch":5.60,"split":5.85,"dr":6.05,"marwa":6.30,"magdy":6.55,"title":6.85,"exit":9.60}
 cuts=[0,5.14,6.68,10.72,13.38,17.16,21.88,24.42,27.36,28.72,35.44]; lap=[1000,1000,1180,1000,1000,1170,1060,1000,1170,1060]
 END={"start":33.70,"close":34.50,"dur":35.44}

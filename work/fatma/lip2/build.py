@@ -13,18 +13,18 @@ def lst(title,rws,num,start,end):
     return {"type":"list","start":round(start,3),"end":round(end,3),"top":1060,"num":num,
             "lines":[[W(i) for i in range(*title)]]+[[W(i) for i in range(a,b)] for a,b in rws]}
 o=lambda i:{"w":w[i][2],"t":w[i][0]}
-O=6.10; C=10.62
-INS={"open":O,"close":C,"end":round(C+0.55,2),"cy":900,"sc":0.66,"dx":50,"dy":310,"y0":round(900+(1090-1210)/0.66),"y1":round(900+(1090-1210)/0.66),
+O=6.10; C=11.60
+INS={"open":O,"close":C,"end":round(C+0.32,2),"ck":0.2,"cy1":0.18,"fa":0.2,"fb":0.3,"cy":900,"sc":0.66,"dx":50,"dy":310,"y0":round(900+(1090-1210)/0.66),"y1":round(900+(1090-1210)/0.66),
  "items":[{"icon":"check","lines":[[o(19)],[o(20),o(21),o(22),o(23)]],"r":40},
           {"icon":"check","dark":True,"lines":[[o(24),o(25)]],"r":75},
           {"icon":"mag","search":True,"lines":[[o(26),o(27),o(28)]],"key":"⌘K","r":40},
           {"icon":"dot","lines":[[o(29),o(30),o(31)]],"key":"↵","r":40}]}
 json.dump(INS,open("ins.json","w"),ensure_ascii=False)
 open("ins_page.html","w").write(open("../ins_items.html").read().replace("DATA",json.dumps(INS,ensure_ascii=False)))
-shape=lst((34,40),[(40,44),(44,47)],"",w[34][0]-PRE,w[47][0]-PRE-0.04)
+shape=lst((35,40),[(40,44),(44,47)],"",max(w[35][0]-PRE,C+0.30),w[47][0]-PRE-0.04)
 age=lst((47,53),[(53,56),(56,59)],"",w[47][0]-PRE,w[59][0]-PRE-0.04)
 devices=[shape,age]
-insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":11.3}
+insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":11.8}
 N={"appear":5.05,"stretch":5.30,"split":5.55,"dr":5.75,"marwa":6.00,"magdy":6.25,"title":6.55,"exit":8.40}
 cuts=[0,4.08,6.24,8.24,11.04,16.32,20.44,23.56,27.52]; lap=[1270,1050,1270,1050,1270,1050,1270,1050]
 END={"start":26.55,"close":27.30,"dur":27.52}
@@ -35,7 +35,7 @@ def sfx(f,t,seg=None): return f"{f}@{t:.2f}@{PK[f] if not seg else seg[2]}"+(f"@
 fx=[sfx("whoosh/light .MP3",0.90),sfx("معلومة مهمة في اول اخر الفيديو مش هوك.MP3",w[7][0]),sfx("pop/2.MP3",N["magdy"]),
  sfx("whoosh/big.MP3",O+0.05),sfx("mouse click 1.MP3",w[19][0]+0.12),sfx("camera shuter.MP3",w[24][0]),sfx("keaboard.MP3",w[26][0],(0.0,0.7,0.05)),
  sfx("Hint , notification/1.mp4",w[29][0]),sfx("whoosh/fast paper.MP3",C+0.03),
- sfx("paper.MP3",w[34][0]),sfx("pop/1.mp4",w[41][0]),sfx("pop/3.MP3",w[45][0]),
+ sfx("paper.MP3",w[35][0]),sfx("pop/1.mp4",w[41][0]),sfx("pop/3.MP3",w[45][0]),
  sfx("whoosh/hard paper turn.MP3",w[47][0]),sfx("pop/4.MP3",w[53][0]),
  sfx("correct answer.MP3",w[66][0]),
  sfx("اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3",END["close"])]

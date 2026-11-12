@@ -8,5 +8,7 @@ const r=await p.evaluate(()=>{const o=[];const pre=3/25;
    ws.forEach(w=>o.push([d.type,w.w,(w.t0??w.t),w.t])); });
  return o;});
 const bad=r.filter(x=>Math.abs(x[3]-x[2])>0.05);
+const wide=await p.evaluate(()=>blocks.map(B=>[B.c.map(o=>o.w).join(' '),Math.round(Math.max(...[...B.el.querySelectorAll('.row')].map(row=>{const k=[...row.children].map(c=>c.getBoundingClientRect());return Math.max(...k.map(x=>x.right))-Math.min(...k.map(x=>x.left));})))]).filter(x=>x[1]>640));
+console.log('rows wider than 640px:',wide.length); wide.forEach(x=>console.log('  ',x[1],x[0]));
 console.log('words',r.length,'late/early >0.05s:',bad.length); bad.forEach(x=>console.log(x[0],x[1],'spoken',x[2].toFixed(2),'shown',x[3].toFixed(2),'diff',(x[3]-x[2]).toFixed(2)));
 if(errs.length) console.log('ERR',errs); await br.close();})();

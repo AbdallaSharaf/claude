@@ -14,7 +14,7 @@ camera shuter.MP3@17.84@0.165
 keaboard.MP3@18.82@0.05@0.0@1.4
 Hint , notification/simble notification.MP3@20.36@0.26
 معلومة مهمة في اول اخر الفيديو مش هوك.MP3@21.82@0.075
-whoosh/fast paper.MP3@24.28@0.46
+whoosh/fast paper.MP3@24.98@0.46
 soft reveal/1.MP3@24.98@0.53
 Hint , notification/solid.MP3@30.18@0.055
 اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3@34.50@0.795

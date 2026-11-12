@@ -21,7 +21,7 @@ html,body{margin:0;background:transparent}
 <svg id="cur" viewBox="0 0 52 64"><path d="M5 5 L5 50 L16 39 L24 57 L32 54 L24 36 L41 36 Z" fill="#2A0E13" stroke="#FAF2EC" stroke-width="3" stroke-linejoin="round"/></svg>
 </div></div>
 <script>
-const D={"open": 6.1, "close": 10.62, "end": 11.17, "cy": 900, "sc": 0.66, "dx": 50, "dy": 310, "y0": 718, "y1": 718, "items": [{"icon": "check", "lines": [[{"w": "Lip Asymmetry", "t": 6.42}], [{"w": "أو", "t": 7.04}, {"w": "عدم", "t": 7.3}, {"w": "تماثل", "t": 7.46}, {"w": "الشفايف", "t": 7.76}]], "r": 40}, {"icon": "check", "dark": true, "lines": [[{"w": "أو", "t": 8.2}, {"w": "Gummy Smile", "t": 8.34}]], "r": 75}, {"icon": "mag", "search": true, "lines": [[{"w": "أو", "t": 8.94}, {"w": "تراجع", "t": 9.2}, {"w": "الشفة", "t": 9.62}]], "key": "⌘K", "r": 40}, {"icon": "dot", "lines": [[{"w": "العلوية", "t": 9.98}, {"w": "أو", "t": 10.34}, {"w": "السفلية", "t": 10.58}]], "key": "↵", "r": 40}]}, pre=3/25;
+const D={"open": 6.1, "close": 11.6, "end": 11.92, "ck": 0.2, "cy1": 0.18, "fa": 0.2, "fb": 0.3, "cy": 900, "sc": 0.66, "dx": 50, "dy": 310, "y0": 718, "y1": 718, "items": [{"icon": "check", "lines": [[{"w": "Lip Asymmetry", "t": 6.42}], [{"w": "أو", "t": 7.04}, {"w": "عدم", "t": 7.3}, {"w": "تماثل", "t": 7.46}, {"w": "الشفايف", "t": 7.76}]], "r": 40}, {"icon": "check", "dark": true, "lines": [[{"w": "أو", "t": 8.2}, {"w": "Gummy Smile", "t": 8.34}]], "r": 75}, {"icon": "mag", "search": true, "lines": [[{"w": "أو", "t": 8.94}, {"w": "تراجع", "t": 9.2}, {"w": "الشفة", "t": 9.62}]], "key": "⌘K", "r": 40}, {"icon": "dot", "lines": [[{"w": "العلوية", "t": 9.98}, {"w": "أو", "t": 10.34}, {"w": "السفلية", "t": 10.58}]], "key": "↵", "r": 40}]}, pre=3/25;
 function spr(t,Ts){ if(t<=0) return 0; const z=0.82,w=4/(z*Ts),wd=w*Math.sqrt(1-z*z); return 1-Math.exp(-z*w*t)*(Math.cos(wd*t)+(z*w/wd)*Math.sin(wd*t)); }
 function spx(t,Ts){ if(t<=0) return 0; const w=5.8/Ts; return 1-(1+w*t)*Math.exp(-w*t); }
 const cl=(x,a,b)=>Math.max(a,Math.min(b,x)), $=id=>document.getElementById(id), LAT=/[A-Za-z]/;
@@ -50,12 +50,12 @@ function seek(t){
   if(!TOPS) layout();
   const hv=(t<O-0.04||t>D.end)?'hidden':'visible'; $('cam').style.visibility=hv;
   const u=Math.max(0,Math.min(t,C)-O); $('cam').style.transform=`translate(${(D.dx+4*Math.sin(u*.7)).toFixed(2)}px,${(D.dy+5*Math.sin(u*.9)).toFixed(2)}px) scale(${(D.sc*(1+0.004*u)).toFixed(4)})`;
-  const k=spx(t-C,.34), top=stackTop(t);
+  const k=spx(t-C,D.ck||.34), top=stackTop(t);
   IT.forEach((o,i)=>{ const ta=o.t-pre, g=spr(t-ta,.34), gh=spr(t-ta,.26); let w=20+(o.w-20)*g, h=20+(o.h-20)*gh;
     let cy=top+TOPS[i]+o.h/2; if(i==0 && t<ta+0.5){ cy=D.y0+(cy-D.y0)*spr(t-(O+0.02),.4); }
-    if(k>0){ w=w*(1-k)+20*k; h=h*(1-k)+20*k; cy=cy+(D.y1-cy)*spx(t-C,.26); }
+    if(k>0){ w=w*(1-k)+20*k; h=h*(1-k)+20*k; cy=cy+(D.y1-cy)*spx(t-C,D.cy1||.26); }
     const e=o.e; e.style.left=(540-w/2).toFixed(1)+'px'; e.style.top=(cy-h/2).toFixed(1)+'px'; e.style.width=w.toFixed(1)+'px'; e.style.height=h.toFixed(1)+'px';
-    e.style.borderRadius=Math.min(o.r||40,h/2).toFixed(1)+'px'; e.style.visibility=(t>=ta-0.01&&!(t>C+0.6))?'visible':'hidden'; e.style.opacity=(t>C+0.45?Math.max(0,1-(t-C-0.45)/0.15):1).toFixed(3);
+    e.style.borderRadius=Math.min(o.r||40,h/2).toFixed(1)+'px'; const FA=D.fa??0.45, FB=D.fb??0.6; e.style.visibility=(t>=ta-0.01&&!(t>C+FB))?'visible':'hidden'; e.style.opacity=(t>C+FA?Math.max(0,1-(t-C-FA)/(FB-FA)):1).toFixed(3);
     const a=cl(spr(t-(ta+0.10),.22),0,1)*(1-cl(spx(t-(C-0.02),.16),0,1)); o.c.style.opacity=a.toFixed(3);
     o.ws.forEach(x=>{ if(x.search){ const L=x.L, s=L.map(q=>q.w).join(' '); let n=0; L.forEach((q,j)=>{ const t0=q.t-pre, t1=j+1<L.length?L[j+1].t-pre:q.t+0.45; const pos=L.slice(0,j).map(z=>z.w.length+1).reduce((p,c)=>p+c,0); n=Math.max(n,Math.round(pos+(q.w.length)*cl((t-t0)/Math.max(0.15,t1-t0),0,1)*(t>=t0?1:0))); }); x.el.textContent=s.slice(0,n); x.car.style.opacity=(Math.floor(t*2.2)%2==0)?1:0.2; }
       else { const b=cl(spr(t-(x.t-pre),.28),0,1); x.el.style.opacity=b.toFixed(3); x.el.style.transform=`translateY(${((1-b)*20).toFixed(1)}px)`; } });
