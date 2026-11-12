@@ -29,7 +29,7 @@ json.dump(data,open("data.json","w"),ensure_ascii=False)
 PK=json.load(open("/home/user/claude/sfx_library/saber_v2/peaks.json"))
 def sfx(f,t,seg=None): return f"{f}@{t:.2f}@{PK[f] if not seg else seg[2]}"+(f"@{seg[0]}@{seg[1]}" if seg else "")
 it=INS["items"]
-fx=[sfx("soft reveal/1.MP3",N["split"]),sfx("pop/2.MP3",N["magdy"]),
+fx=[sfx("soft reveal/1.MP3",0.90),sfx("معلومة مهمة في اول اخر الفيديو مش هوك.MP3",w[7][0]),sfx("whoosh/fast paper.MP3",6.04),sfx("pop/2.MP3",N["magdy"]),
  sfx("Hint , notification/simble notification.MP3",w[17][0]),
  sfx("pop/1.mp4",cnt["items"][0]["words"][0]["t"]),sfx("Hint , notification/solid.MP3",cnt["items"][2]["words"][0]["t"]),
  sfx("Hint , notification/info.MP3",w[35][0]),

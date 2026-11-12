@@ -1,4 +1,6 @@
-soft reveal/1.MP3@6.65@0.53
+soft reveal/1.MP3@0.90@0.53
+معلومة مهمة في اول اخر الفيديو مش هوك.MP3@2.48@0.075
+whoosh/fast paper.MP3@6.04@0.46
 pop/2.MP3@7.35@0.05
 Hint , notification/simble notification.MP3@6.28@0.26
 pop/1.mp4@7.50@0.09
