@@ -31,8 +31,8 @@ LIST_JS = r"""
  const hw=L.lines[0].map(o=>{ const sp=document.createElement('span'); sp.className=LAT.test(o.w)?'en':'ar'; sp.textContent=o.w; if(o.g) sp.style.color='#B4525E'; head.appendChild(sp); return {el:sp,t:o.t}; });
  const div=document.createElement('div'); div.style.cssText='position:absolute;left:30px;right:30px;top:104px;height:1.5px;background:rgba(58,18,25,.10)'; card.appendChild(div);
  const rows=L.lines.slice(1).map((ln,i)=>{ const r=document.createElement('div'); r.className='lr'; r.style.top=(HEAD+12+i*RH)+'px';
-   const cb=document.createElement('div'); cb.className='cb'; cb.innerHTML='<svg width="30" height="30" viewBox="0 0 30 30"><path d="M7 16 L13 22 L24 9" stroke="#FAF2EC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'; r.appendChild(cb);
-   const ws=ln.map(o=>{ const sp=document.createElement('span'); sp.className=LAT.test(o.w)?'en':'ar'; sp.textContent=o.w; r.appendChild(sp); return {el:sp,t:o.t}; });
+   const hdr=!!ln[0].hdr; const cb=document.createElement('div'); cb.className='cb'; if(hdr){ cb.style.visibility='hidden'; cb.style.width='0px'; cb.style.border='none'; } cb.innerHTML='<svg width="30" height="30" viewBox="0 0 30 30"><path d="M7 16 L13 22 L24 9" stroke="#FAF2EC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'; r.appendChild(cb);
+   const ws=ln.map(o=>{ const sp=document.createElement('span'); sp.className=LAT.test(o.w)?'en':'ar'; sp.textContent=o.w; if(hdr) sp.style.color='#B4525E'; r.appendChild(sp); return {el:sp,t:o.t}; });
    card.appendChild(r); return {r,cb,ck:cb.querySelector('path'),ws,t:ln[0].t}; });
  const HK=[[0,HEAD+PADB-14]].concat(rows.map((R,i)=>[R.t-pre-0.18,HEAD+12+(i+1)*RH+PADB-12]));
  const trk=(K,t,Ts)=>{ let v=K[0][1]; for(let i=1;i<K.length;i++) v+=(K[i][1]-K[i-1][1])*spr(t-K[i][0],Ts); return v; };

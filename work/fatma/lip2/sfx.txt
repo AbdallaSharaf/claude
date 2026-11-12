@@ -1,16 +1,16 @@
 whoosh/light .MP3@0.90@0.56
 معلومة مهمة في اول اخر الفيديو مش هوك.MP3@2.52@0.075
 pop/2.MP3@6.25@0.05
-whoosh/big.MP3@6.15@0.56
+whoosh/big.MP3@6.41@0.56
 mouse click 1.MP3@6.54@0.115
 camera shuter.MP3@8.20@0.165
 keaboard.MP3@8.94@0.05@0.0@0.7
 Hint , notification/1.mp4@9.98@0.09
 whoosh/fast paper.MP3@11.63@0.46
-paper.MP3@11.94@0.275
+paper.MP3@12.80@0.275
 pop/1.mp4@14.00@0.09
 pop/3.MP3@15.50@0.06
 whoosh/hard paper turn.MP3@16.10@0.43
 pop/4.MP3@18.30@0.065
 correct answer.MP3@22.64@0.09
-اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3@27.30@0.795
+اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3@27.45@0.795
