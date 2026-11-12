@@ -1,0 +1,20 @@
+photo insert.MP3@0.90@0.075
+Hint , notification/info.MP3@3.08@0.125
+whoosh/light .MP3@5.00@0.56
+pop/2.MP3@6.55@0.05
+paper.MP3@6.62@0.275
+pop/1.mp4@8.60@0.09
+pop/3.MP3@9.86@0.06
+pop/4.MP3@11.32@0.065
+whoosh/hard paper turn.MP3@13.34@0.43
+Hint , notification/1.mp4@15.18@0.09
+whoosh/big.MP3@17.03@0.56
+mouse click 1.MP3@17.26@0.115
+camera shuter.MP3@17.84@0.165
+keaboard.MP3@18.82@0.05@0.0@1.4
+Hint , notification/simble notification.MP3@20.36@0.26
+معلومة مهمة في اول اخر الفيديو مش هوك.MP3@21.82@0.075
+whoosh/fast paper.MP3@24.28@0.46
+soft reveal/1.MP3@24.98@0.53
+Hint , notification/solid.MP3@30.18@0.055
+اصوات تنفع لبداية او نهاية الفيديو/whoosh with impact.MP3@34.50@0.795
