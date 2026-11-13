@@ -5,18 +5,19 @@ PRE=3/25
 w=json.load(open("../lip_words.json")); w[0][0]=0.44; w[10][2]="للشفايف؟"
 GOLD=set()
 def H(text,t,g=()):
-    """a headline in clean wording: every word comes in together when she starts saying it"""
     return [{"w":x,"t":t,"e":t,"g":(k in g)} for k,x in enumerate(text.split(" "))]
-def block(*rows):
-    out=[]
-    for ri,(text,t,g) in enumerate(rows):
-        for o in H(text,t,g): o["r"]=ri; out.append(o)
+def KB(*rows):
+    """karaoke block: the whole block comes in at once; each word lights up when she says it (k)"""
+    t0=min(ks[0] for _,ks in rows); out=[]
+    for ri,(text,ks) in enumerate(rows):
+        for x,k in zip(text.split(" "),ks): out.append({"w":x,"t":t0,"e":t0,"g":False,"k":k,"r":ri})
     return out
 T=lambda i:w[i][0]
-chunks=[block(("Lip\u00a0Filler",T(5),(0,)),("مش مجرد تكبير شفايف",T(7),(2,))),
-        block(("الأهم من نوع الفيلر",T(59),(3,))),
-        block(("اختيار الدكتور المناسب",T(65),(1,2))),
-        block(("نوع المادة والتكنيك",T(71),()),("المناسب لكل حالة",T(71),()))]
+chunks=[KB(("مش مجرد تكبير شفايف",[T(7),T(8),T(9),T(10)])),
+        KB(("الأهم من نوع الفيلر",[T(59),T(60),T(62),T(63)])),
+        KB(("اختيار الدكتور المناسب",[T(65),T(66),T(67)])),
+        KB(("نوع المادة والتكنيك",[T(71),T(72),T(73)]),("المناسب لكل حالة",[T(74),T(75),T(76)]))]
+TITLE={"text":"Lip Filler","t":T(5)}
 def card(title,rows,start,end,top=1000):
     L=[H(title,title_t,(0,1,2)) for title_t in [start+PRE]]
     for text,t in rows: L.append(H(text,t))
@@ -37,7 +38,7 @@ insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":20.0}
 N={"appear":5.05,"stretch":5.30,"split":5.55,"dr":5.75,"marwa":6.00,"magdy":6.25,"title":6.55,"exit":8.40}
 cuts=[0,4.08,6.24,8.24,11.04,16.32,20.44,23.56,27.52]; lap=[1270,1050,1270,1050,1270,1050,1270,1050]
 END={"start":26.75,"close":27.45,"dur":27.52}
-data={"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":175}
+data={"title":TITLE,"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":175}
 json.dump(data,open("data.json","w"),ensure_ascii=False)
 PK=json.load(open("/home/user/claude/sfx_library/saber_v2/peaks.json"))
 def sfx(f,t,seg=None): return f"{f}@{t:.2f}@{PK[f] if not seg else seg[2]}"+(f"@{seg[0]}@{seg[1]}" if seg else "")
