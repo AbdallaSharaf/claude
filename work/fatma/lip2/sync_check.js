@@ -14,6 +14,11 @@ const shortB=await p.evaluate(()=>{const pre=3/25,o=[];blocks.forEach(B=>{const 
   if(d.type=='counter'){ d.items.forEach((it,i)=>{const nx=i+1<d.items.length?d.items[i+1].t-pre:d.end;const lw=Math.max(...it.words.map(w=>w.t))-pre;if(nx-lw<0.8)o.push(['counter',it.words.map(w=>w.w).join(' '),+(nx-lw).toFixed(2)]);}); }
   else { const lw=Math.max(...ws.map(w=>w.t))-pre; if(d.end-lw<0.8)o.push([d.type,ws.map(w=>w.w).slice(-3).join(' '),+(d.end-lw).toFixed(2)]); } });return o;});
 console.log('last words shown < 0.8 s:',shortB.length); shortB.forEach(x=>console.log('  ',x.join(' | ')));
+const clip=await p.evaluate(()=>{const out=[];document.querySelectorAll('.m').forEach(m=>{const w=m.firstElementChild;if(!w)return;const keep=[...w.querySelectorAll('span')].concat([w]).map(e=>[e,e.style.transform]);
+   [...w.querySelectorAll('span')].forEach(e=>e.style.transform='scale(1.1)'); w.style.transform='none';
+   const mr=m.getBoundingClientRect(); [...w.querySelectorAll('span')].concat(w.children.length?[]:[w]).forEach(e=>{const r=e.getBoundingClientRect(); if(r.width&&(r.left<mr.left-0.5||r.right>mr.right+0.5||r.top<mr.top-0.5||r.bottom>mr.bottom+0.5)) out.push(w.textContent.slice(0,20));});
+   keep.forEach(([e,v])=>e.style.transform=v);});return [...new Set(out)];});
+console.log('clipped words:',clip.length,clip.join(' | '));
 console.log('rows wider than 640px:',wide.length); wide.forEach(x=>console.log('  ',x[1],x[0]));
 console.log('words',r.length,'late/early >0.05s:',bad.length); bad.forEach(x=>console.log(x[0],x[1],'spoken',x[2].toFixed(2),'shown',x[3].toFixed(2),'diff',(x[3]-x[2]).toFixed(2)));
 if(errs.length) console.log('ERR',errs); await br.close();})();

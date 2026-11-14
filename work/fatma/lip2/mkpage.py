@@ -7,6 +7,7 @@ rep=[("(t>D.insert.start+0.45 && t<D.insert.end)","(t>(D.insert.hide??D.insert.s
  # next block comes in on time; the last word keeps at least minHold (pauses give it more)
  ("B.leave=Math.min(Math.max(B.nxt-pre, last.ta+0.8), last.e+1.6, hard);","B.leave=Math.min(Math.max(B.nxt-pre, last.ta+(D.minHold??0.8)), hard);"),
  # a block whose widest row is wider than her body gets a smaller font (whole block, min 44)
+ (".m{overflow:hidden;padding:12px 6px 28px;display:inline-block}",".m{overflow:hidden;padding:16px 26px 30px;margin:0 -20px;display:inline-block}"),
  ("function seek(t){\n","function fitBlocks(){ blocks.forEach(B=>{ const rs=[...B.el.querySelectorAll('.row')]; const mw=Math.max(...rs.map(r=>{ const k=[...r.children].map(c=>c.getBoundingClientRect()); return Math.max(...k.map(x=>x.right))-Math.min(...k.map(x=>x.left)); })); B.mw=mw; if(mw>620){ const fs=Math.max(44,54*620/mw); B.el.querySelectorAll('.w').forEach(s=>s.style.fontSize=fs.toFixed(1)+'px'); B.fs=fs; } }); }\nlet FIT=false;\nfunction seek(t){ if(!FIT){ FIT=true; fitBlocks(); }\n")]
 for a,b in rep:
     assert a in h,a[:40]; h=h.replace(a,b)
@@ -35,6 +36,33 @@ KARAOKE_JS = r"""
    if(tt){ const first=blocks[0]; const vis=t>TT.t-pre-0.02 && t<first.leave+0.4; tt.style.visibility=vis?'visible':'hidden';
      if(vis){ const a=cl(spr(t-(TT.t-pre),.32),0,1), xo=spx(t-first.leave,.2); const p=document.getElementById('ttp');
        tt.style.top=(-118)+'px'; p.style.transform=`translateY(${((1-a)*40-xo*20).toFixed(1)}px) scale(${(0.9+0.1*a).toFixed(3)})`; p.style.opacity=(a*(1-xo)).toFixed(3); } } };
+})();
+</script>"""
+HOOK_JS = r"""
+<style>
+#hk{position:absolute;left:0;width:1080px;display:flex;flex-direction:column;align-items:center;pointer-events:none}
+#hk .hr{display:flex;gap:26px;direction:rtl}
+#hk .hm{overflow:hidden;padding:18px 24px 34px;display:inline-block}
+#hk .hw{display:inline-block;font:116px/1.15 A8;color:#F6EAD6;text-shadow:0 4px 14px rgba(74,42,20,.6),0 1px 2px rgba(74,42,20,.45);transform-origin:50% 80%}
+#hk .hw.g{color:#F0C98A}
+#hk .tl{height:5px;border-radius:3px;background:#F0C98A;box-shadow:0 2px 6px rgba(74,42,20,.5);margin-top:-14px}
+</style>
+<script>
+(function(){ const HK=D.hook; if(!HK) return;
+ const box=document.createElement('div'); box.id='hk'; const row=document.createElement('div'); row.className='hr'; box.appendChild(row);
+ const ws=HK.words.map((o,i)=>{ const m=document.createElement('span'); m.className='hm'; const s=document.createElement('span'); s.className='hw'+(i==1?' g':''); s.textContent=o.w; m.appendChild(s); row.appendChild(m); return {el:s,t:o.t}; });
+ const tl=document.createElement('div'); tl.className='tl'; box.appendChild(tl); document.getElementById('L').appendChild(box);
+ let W=null;
+ const _seek=window.seek;
+ window.seek=function(t){ _seek(t);
+   const vis=t>HK.words[0].t-pre-0.02 && t<HK.end+0.5; box.style.visibility=vis?'visible':'hidden'; if(!vis) return;
+   if(W===null) W=row.getBoundingClientRect().width-48;
+   box.style.top='-330px'; const xo=spx(t-HK.end,.22);
+   ws.forEach((o,i)=>{ const a=spr(t-(o.t-pre),.34); const k=cl(a,0,1.2);
+     o.el.style.transform=`translateY(${((1-k)*150-xo*150).toFixed(1)}px) scale(${(1.12-0.12*cl(a,0,1)).toFixed(3)})`; o.el.style.opacity=(a>0.001&&xo<.999)?1:0; });
+   // one-second timer: the gold line runs right to left for exactly one second from the first word
+   const u=cl((t-(HK.words[0].t-pre))/1.0,0,1), e=1-Math.pow(1-u,2);
+   tl.style.width=(W*e).toFixed(1)+'px'; tl.style.marginLeft=(W*(1-e)).toFixed(1)+'px'; tl.style.opacity=(1-xo).toFixed(3); };
 })();
 </script>"""
 LIST_JS = r"""
@@ -89,5 +117,5 @@ LIST_JS = r"""
      const L2=R.ck.getTotalLength(); R.ck.style.strokeDasharray=`${(L2*f).toFixed(1)} ${L2+1}`; R.ws.forEach(o=>rise(o,t)); }); };
 });
 </script>"""
-h=h.replace("</body>",KARAOKE_JS+LIST_JS+"</body>")
+h=h.replace("</body>",HOOK_JS+KARAOKE_JS+LIST_JS+"</body>")
 open("page.html","w").write(h.replace("DATA",json.dumps(d,ensure_ascii=False)))

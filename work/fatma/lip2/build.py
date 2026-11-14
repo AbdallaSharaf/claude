@@ -18,6 +18,7 @@ chunks=[KB(("مش مجرد تكبير شفايف",[T(7),T(8),T(9),T(10)])),
         KB(("اختيار الدكتور المناسب",[T(65),T(66),T(67)])),
         KB(("نوع المادة والتكنيك",[T(71),T(72),T(73)]),("المناسب لكل حالة",[T(74),T(75),T(76)]))]
 TITLE={"text":"Lip Filler","t":T(5)}
+HOOK={"words":[{"w":"ثانية","t":T(0)},{"w":"واحدة","t":T(1)}],"end":6.25}
 def card(title,rows,start,end,top=1000):
     L=[H(title,title_t,(0,1,2)) for title_t in [start+PRE]]
     for text,t in rows: L.append(H(text,t))
@@ -38,12 +39,12 @@ insert={"start":O-0.05,"end":INS["end"],"hide":O,"drop_to":20.0}
 N={"appear":5.05,"stretch":5.30,"split":5.55,"dr":5.75,"marwa":6.00,"magdy":6.25,"title":6.55,"exit":8.40}
 cuts=[0,4.08,6.24,8.24,11.04,16.32,20.44,23.56,27.52]; lap=[1270,1050,1270,1050,1270,1050,1270,1050]
 END={"start":26.75,"close":27.45,"dur":27.52}
-data={"title":TITLE,"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":175}
+data={"hook":HOOK,"title":TITLE,"chunks":chunks,"devices":devices,"cuts":cuts[1:-1],"lap":lap,"N":N,"END":END,"trans":[],"insert":insert,"minHold":0.0,"nameY":175}
 json.dump(data,open("data.json","w"),ensure_ascii=False)
 PK=json.load(open("/home/user/claude/sfx_library/saber_v2/peaks.json"))
 def sfx(f,t,seg=None): return f"{f}@{t:.2f}@{PK[f] if not seg else seg[2]}"+(f"@{seg[0]}@{seg[1]}" if seg else "")
 fx=[sfx("whoosh/light .MP3",0.90),sfx("معلومة مهمة في اول اخر الفيديو مش هوك.MP3",T(7)),sfx("pop/2.MP3",N["magdy"]),
- sfx("whoosh/big.MP3",O+0.05),sfx("mouse click 1.MP3",T(19)+0.12),sfx("camera shuter.MP3",T(25)),sfx("keaboard.MP3",T(27),(0.0,0.7,0.05)),
+ sfx("whoosh/big.MP3",O+0.05),sfx("mouse click 1.MP3",T(19)+0.12),sfx("camera shuter.MP3",T(25)),sfx("keaboard.MP3",9.08,(0.6,1.3,0.045)),sfx("keaboard.MP3",9.76,(0.6,1.1,0.045)),
  sfx("Hint , notification/1.mp4",T(29)),sfx("whoosh/fast paper.MP3",C+0.03),
  sfx("paper.MP3",T(38)),sfx("pop/1.mp4",T(41)),sfx("pop/3.MP3",T(45)),
  sfx("whoosh/hard paper turn.MP3",T(48)),sfx("pop/4.MP3",T(53)),
