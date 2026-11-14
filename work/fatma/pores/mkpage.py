@@ -17,8 +17,8 @@ KARAOKE_JS = r"""
 .w.kw{display:inline-grid}
 .w.kw>span{grid-area:1/1;text-align:center;transform-origin:50% 70%}
 .w.kw>.kb{font-family:A8;color:#F0C98A}
-#ttl{position:absolute;left:0;width:1080px;display:flex;justify-content:center;pointer-events:none}
-#ttl svg{position:static}
+.ttl{position:absolute;left:0;width:1080px;display:flex;justify-content:center;pointer-events:none}
+.ttl svg{position:static}
 </style>
 <script>
 (function(){
@@ -26,16 +26,20 @@ KARAOKE_JS = r"""
  const KW=[]; blocks.forEach(B=>B.c.forEach(o=>{ if(o.k===undefined) return; const s=o.el; const tx=s.textContent; s.textContent='';
    s.classList.add('kw'); const n=document.createElement('span'); n.textContent=tx; const b=document.createElement('span'); b.className='kb'; b.textContent=tx; s.appendChild(n); s.appendChild(b); KW.push({o,B,n,b}); }));
  // Lip Filler title: glass pill with a lips icon (option 2)
- const TT=D.title; let tt=null;
- if(TT){ tt=document.createElement('div'); tt.id='ttl'; tt.innerHTML=`<div id="ttp" style="display:flex;align-items:center;gap:22px;padding:14px 40px 14px 16px;border-radius:60px;background:rgba(250,242,236,.82);border:1.5px solid rgba(255,248,242,.9);box-shadow:0 1px 0 rgba(255,250,246,.9) inset,0 20px 50px rgba(50,14,20,.25)"><div style="width:84px;height:84px;border-radius:42px;background:#B4525E;display:flex;align-items:center;justify-content:center">${TT.svg}</div><div style="font:66px/1 ${/[A-Za-z]/.test(TT.text)?'G7':'P7'};color:#3A1219;letter-spacing:-.01em;white-space:nowrap">${TT.text}</div></div>`; document.getElementById('L').appendChild(tt); }
+ const TTS=(Array.isArray(D.title)?D.title:(D.title?[D.title]:[])).map(TT=>{ const tt=document.createElement('div'); tt.className='ttl'; tt.innerHTML=`<div class="ttp" style="display:flex;align-items:center;gap:22px;padding:14px 40px 14px 16px;border-radius:60px;background:rgba(250,242,236,.82);border:1.5px solid rgba(255,248,242,.9);box-shadow:0 1px 0 rgba(255,250,246,.9) inset,0 20px 50px rgba(50,14,20,.25);transform-origin:50% 50%"><div style="width:84px;height:84px;border-radius:42px;background:#B4525E;display:flex;align-items:center;justify-content:center">${TT.svg}</div><div style="font:66px/1 ${/[A-Za-z]/.test(TT.text)?'G7':'P7'};color:#3A1219;letter-spacing:-.01em;white-space:nowrap">${TT.text}</div></div>`; document.getElementById('L').appendChild(tt); return {TT,tt,p:tt.firstChild,k:null}; });
+
  const _seek=window.seek;
  window.seek=function(t){ _seek(t);
    KW.forEach(x=>{ const ws=x.B.c.filter(q=>q.k!==undefined); const i=ws.indexOf(x.o); const nx=i+1<ws.length?ws[i+1].k-pre:1e9;
      const on=cl(spr(t-(x.o.k-pre),.16),0,1)*(1-cl(spr(t-nx,.16),0,1));
      x.b.style.opacity=on.toFixed(3); x.n.style.opacity=(1-on).toFixed(3); const sc=(1+0.10*on).toFixed(3); x.b.style.transform=`scale(${sc})`; x.n.style.transform=`scale(${sc})`; });
-   if(tt){ const first=blocks[TT.block||0]; const vis=t>TT.t-pre-0.02 && t<first.leave+0.4; tt.style.visibility=vis?'visible':'hidden';
-     if(vis){ const a=cl(spr(t-(TT.t-pre),.32),0,1), xo=spx(t-first.leave,.2); const p=document.getElementById('ttp');
-       tt.style.top=(-118)+'px'; p.style.transform=`translateY(${((1-a)*40-xo*20).toFixed(1)}px) scale(${(0.9+0.1*a).toFixed(3)})`; p.style.opacity=(a*(1-xo)).toFixed(3); } } };
+   TTS.forEach(o=>{ const TT=o.TT, tt=o.tt, p=o.p, B=blocks[TT.block||0]; const vis=t>TT.t-pre-0.02 && t<B.leave+0.4; tt.style.visibility=vis?'visible':'hidden';
+     if(!vis) return;
+     if(o.k===null){ p.style.transform='none'; const pw=p.getBoundingClientRect().width; const rw=Math.max(...[...B.el.querySelectorAll('.row')].map(r=>{const k=[...r.children].map(c=>c.firstChild.getBoundingClientRect());return Math.max(...k.map(x=>x.right))-Math.min(...k.map(x=>x.left));})); o.k=TT.fit?rw/pw:1; o.top=TT.below?(B.el.offsetHeight-40):-118; }
+     const a=cl(spr(t-(TT.t-pre),.32),0,1), xo=spx(t-B.leave,.2);
+     tt.style.top=o.top+'px'; p.style.transform=`translateY(${((1-a)*40-xo*20).toFixed(1)}px) scale(${(o.k*(0.9+0.1*a)).toFixed(3)})`; p.style.opacity=(a*(1-xo)).toFixed(3); }); };
+
+
 })();
 </script>"""
 HOOK_JS = r"""
@@ -97,11 +101,10 @@ LIST_JS = r"""
    let n=0; while(n<40){ sp.textContent=s0.slice(0,k)+'ـ'.repeat(n+1)+s0.slice(k); if(sp.getBoundingClientRect().width>w0+add+2){ sp.textContent=s0.slice(0,k)+'ـ'.repeat(n)+s0.slice(k); break; } n++; } }
  let LAY=null;
  function lay(){ const W=rows.map(R=>R.tx.getBoundingClientRect().width), T=Math.max(...W);
-   rows.forEach((R,i)=>{ if(W[i]<0.72*T) return; let left=T-W[i]; const sp=[...R.ws].map(o=>o.el).sort((a,b)=>b.textContent.length-a.textContent.length);
+   rows.forEach((R,i)=>{ let left=T-W[i]; const sp=[...R.ws].map(o=>o.el).sort((a,b)=>b.textContent.length-a.textContent.length);
      sp.forEach((x,j)=>{ if(left<4) return; const w0=x.getBoundingClientRect().width; kas(x,left/(sp.length-j)); left-=x.getBoundingClientRect().width-w0; }); });
    const rowW=52+26+Math.max(...rows.map(R=>R.tx.getBoundingClientRect().width));
-   LAY={W:Math.max(rowW,title.scrollWidth)+2*PADX, H:TOPP+TH+DIVG+rows.length*RH+BOT-20};
-   rows.forEach(R=>{ R.r.style.justifyContent='flex-start'; R.r.style.boxSizing='border-box'; R.r.style.paddingRight=((LAY.W-rowW)/2).toFixed(1)+'px'; }); }
+   LAY={W:Math.max(rowW,title.scrollWidth)+2*PADX, H:TOPP+TH+DIVG+rows.length*RH+BOT-20}; }
  const HK=[[0,TOPP+TH+BOT]].concat(rows.map((R,i)=>[R.t-pre-0.18,TOPP+TH+DIVG+(i+1)*RH+BOT-20]));
  const trk=(K,t,Ts)=>{ let v=K[0][1]; for(let i=1;i<K.length;i++) v+=(K[i][1]-K[i-1][1])*spr(t-K[i][0],Ts); return v; };
  const rise=(o,t)=>{ const a=cl(spr(t-(o.t-pre),.28),0,1); o.el.style.transform=`translateY(${((1-a)*22).toFixed(1)}px)`; o.el.style.opacity=a.toFixed(3); };

@@ -49,7 +49,7 @@ const IT=D.items.map((o,i)=>{ const e=document.createElement('div'); e.className
   const c=document.createElement('div'); c.className='c'; e.appendChild(c);
   c.insertAdjacentHTML('beforeend',ICON[o.icon](o.num));
   const tx=document.createElement('div'); tx.className='tx'; c.appendChild(tx);
-  const ws=[]; o.lines.forEach(L=>{ const ln=document.createElement('div'); ln.className='ln'; tx.appendChild(ln);
+  const ws=[]; o.lines.forEach(L=>{ const ln=document.createElement('div'); ln.className='ln'; tx.appendChild(ln); if(!L.some(w=>/[\u0621-\u064A]/.test(w.w))) ln.style.direction='ltr';
     if(o.search){ const sp=document.createElement('span'); sp.className='ar'; ln.appendChild(sp); const car=document.createElement('span'); car.style.cssText='display:inline-block;width:4px;height:58px;background:#B4525E;align-self:center'; ln.appendChild(car); ws.push({search:true,el:sp,car,L}); }
     else L.forEach(w=>{ const sp=document.createElement('span'); sp.className=LAT.test(w.w)?'en':'ar'; sp.textContent=w.w; ln.appendChild(sp); ws.push({el:sp,t:w.t}); }); });
   if(o.key) c.insertAdjacentHTML('beforeend',`<span class="key">${o.key}</span>`);
@@ -61,10 +61,10 @@ function kashida(sp,target){ let s=sp.textContent, guard=0;
     const pos=[]; for(let i=0;i<s.length-1;i++){ const c=s[i], n=s[i+1]; if(NOJOIN.includes(c)||c=='ـ'&&false||n==' '||c==' ') continue; if(/[ء-ي]/.test(c)&&/[ء-يـ]/.test(n)&&!NOJOIN.includes(c)) pos.push(i+1); }
     if(!pos.length) break; const k=pos[guard%pos.length]; s=s.slice(0,k)+'ـ'+s.slice(k); sp.textContent=s; } }
 function equalize(){ const lines=IT.map(o=>o.c.querySelector('.ln')); const ws=lines.map(l=>l.getBoundingClientRect().width); const T=Math.max(...ws);
-  IT.forEach((o,i)=>{ const ln=lines[i]; if(ws[i]>=T-3||ws[i]<0.62*T) return; const sp=[...ln.children];
+  IT.forEach((o,i)=>{ const ln=lines[i]; if(ws[i]>=T-3) return; const sp=[...ln.children];
     if(sp.some(x=>/[ء-ي]/.test(x.textContent))){ const ar=sp.filter(x=>/[ء-ي]/.test(x.textContent)).sort((a,b)=>b.textContent.length-a.textContent.length);
       let left=T-ln.getBoundingClientRect().width; ar.forEach((x,j)=>{ const share=left/(ar.length-j); const w0=x.getBoundingClientRect().width; kashida(x,w0+share); left-=x.getBoundingClientRect().width-w0; }); }
-    else { const n=sp.reduce((a,x)=>a+x.textContent.length,0); sp.forEach(x=>x.style.letterSpacing=Math.min(2.5,(T-ws[i])/n).toFixed(2)+'px'); } }); }
+    else { const n=sp.reduce((a,x)=>a+x.textContent.length,0); sp.forEach(x=>x.style.letterSpacing=((T-ws[i])/n).toFixed(2)+'px'); } }); }
 function layout(){ equalize(); TOPS=[]; let y=0; IT.forEach(o=>{ o.ws.forEach(x=>{ if(x.search) x.el.textContent=x.L.map(q=>q.w).join(' '); }); o.w=Math.min(980,o.c.scrollWidth+150); }); if(D.align){ const mw=Math.max(...IT.map(o=>o.w)); IT.forEach(o=>o.w=mw); } IT.forEach((o,i)=>{ o.ws.forEach(x=>{ if(x.search) x.el.textContent=''; }); TOPS.push(y); y+=o.h+GAP; }); }
 const total=n=>{ let s=0; for(let i=0;i<n;i++) s+=IT[i].h+(i?GAP:0); return s; };
 function stackTop(t){ let v=CY-total(1)/2; for(let n=2;n<=IT.length;n++) v+=((CY-total(n)/2)-(CY-total(n-1)/2))*spr(t-(IT[n-1].t-pre-0.1),.42); return v; }
