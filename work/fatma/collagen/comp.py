@@ -1,6 +1,6 @@
 import numpy as np,subprocess,math,sys,os
 from PIL import Image,ImageFilter,ImageEnhance
-src,out=sys.argv[1],sys.argv[2]; N=886; fps=25; W,H=1080,1920; O,C=17.00,24.95
+src,out=sys.argv[1],sys.argv[2]; N=886; fps=25; W,H=1080,1920; O,C=6.30,11.40
 def spr(t,Ts):
     if t<=0: return 0
     z=0.82;w=4/(z*Ts);wd=w*math.sqrt(1-z*z); return 1-math.exp(-z*w*t)*(math.cos(wd*t)+(z*w/wd)*math.sin(wd*t))
@@ -18,9 +18,9 @@ for i in range(N):
     t=i/fps; z=1.0+0.035*(0.5-0.5*math.cos(2*math.pi*t/9.0)); im=Image.fromarray(last)
     if z>1.0005: im=im.transform((W,H),Image.AFFINE,(1/z,0,(W-W/z)/2,0,1/z,(H-H/z)*0.4),resample=Image.BICUBIC)
     v=max(0.0,min(1.0,spr(t-O,.35)*(1-spx(t-C,.42))))
-    if v>0.01: im=ImageEnhance.Color(im.filter(ImageFilter.GaussianBlur(14*v))).enhance(1+0.12*v)
+    pass
     im=im.convert("RGBA")
-    if v>0.01: im.alpha_composite(Image.new("RGBA",im.size,(58,18,25,int(46*v))))
+    pass
     for d in ("fr","fi"):
         f=f"{d}/f{i:04d}.png"
         if os.path.exists(f): im.alpha_composite(Image.open(f).convert("RGBA"))
